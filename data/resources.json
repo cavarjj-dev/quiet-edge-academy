@@ -1,6 +1,6 @@
 {
-  "lastSynced": "2026-04-02",
-  "count": 31,
+  "lastSynced": "2026-04-03",
+  "count": 32,
   "resources": [
     {
       "id": "RES-001",
@@ -578,6 +578,25 @@
       "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep6p/",
       "shortUrl": "https://tinyurl.com/2a2fvcuf",
       "videoTitle": "Ep. 6: The Hidden Ways Parents Disrupt Their Athlete's Pre-Game Routine"
+    },
+    {
+      "id": "RES-037",
+      "title": "Parent Visualization Support Checklist",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Validate / Protect / Create Environment — Parent's 3-Part Role in Mental Practice",
+      "evidenceBase": "Jeannerod (1994) — motor imagery activates same neural pathways as physical execution; Holmes & Collins (2001) — PETTLEP model: quality of conditions determines neural encoding strength; Feldman (2007) — parent emotional state transfers to athlete non-verbally; Mageau & Vallerand (2003) — autonomy-supportive step-back reduces athlete anxiety",
+      "learningObjectives": [
+        "Score your current behavior across the three parent roles (Validate, Protect, Create Environment) to identify your strongest support area and biggest gap",
+        "Distinguish between productive visualization and worry spiraling based on observable behavioral signals"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep7p/",
+      "shortUrl": "https://tinyurl.com/2yz3pvw5",
+      "videoTitle": "Ep. 7: Why Visualization Works — And How Parents Can Help (Or Get Out of the Way)"
     }
   ]
 }
