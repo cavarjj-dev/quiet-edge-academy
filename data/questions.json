@@ -4,143 +4,203 @@
       "id": "audience",
       "step": 1,
       "question": "Who are you?",
-      "subtext": "This shapes which resources we recommend.",
+      "subtext": "This shapes which resources and language we use throughout your guide.",
       "type": "card",
       "options": [
         {
           "value": "Athlete",
           "label": "I'm an athlete",
           "description": "I compete in sport and want to sharpen my mental game.",
-          "icon": "🏅"
+          "icon": "🏅",
+          "audienceFilter": null
         },
         {
           "value": "Parent",
           "label": "I'm a sports parent",
           "description": "I support a young athlete and want to be a better resource for them.",
-          "icon": "🤝"
-        }
-      ]
-    },
-    {
-      "id": "pillar",
-      "step": 2,
-      "question": "What's your biggest challenge right now?",
-      "subtext": "Pick the one that resonates most.",
-      "type": "card",
-      "options": [
-        {
-          "value": "Psychological",
-          "label": "Mindset & Emotions",
-          "description": "Managing nerves, confidence, negative self-talk, or emotional reactions.",
-          "icon": "🧠"
-        },
-        {
-          "value": "Socio-Emotional",
-          "label": "Relationships & Communication",
-          "description": "Navigating team dynamics, coach relationships, or parent-athlete communication.",
-          "icon": "💬"
-        },
-        {
-          "value": "Technical",
-          "label": "Building Mental Skills",
-          "description": "Developing focus routines, pre-competition habits, or performance cues.",
-          "icon": "🎯"
-        },
-        {
-          "value": "Physical",
-          "label": "Mental-Physical Connection",
-          "description": "Linking mindset to physical training, recovery, and readiness.",
-          "icon": "⚡"
-        }
-      ]
-    },
-    {
-      "id": "coreValue",
-      "step": 3,
-      "question": "What do you most want to develop?",
-      "subtext": "Choose what feels most important right now.",
-      "type": "card",
-      "options": [
-        {
-          "value": "Competence",
-          "label": "Confidence & Capability",
-          "description": "Perform at my best under pressure and trust my training.",
-          "icon": "💪"
-        },
-        {
-          "value": "Mastery-Focus",
-          "label": "Process Over Results",
-          "description": "Stay focused on improvement instead of obsessing over outcomes.",
-          "icon": "📈"
-        },
-        {
-          "value": "Autonomy",
-          "label": "Ownership & Independence",
-          "description": "Take charge of my own development and think for myself.",
-          "icon": "🔑"
-        },
-        {
-          "value": "Relatedness",
-          "label": "Connection & Support",
-          "description": "Strengthen relationships and build a healthy support system.",
-          "icon": "🤲"
+          "icon": "🤝",
+          "audienceFilter": null
         }
       ]
     },
     {
       "id": "stage",
-      "step": 4,
-      "question": "Where are you in your journey?",
-      "subtext": "Our curriculum is organized in progressive stages.",
+      "step": 2,
+      "question": "Where are you right now?",
+      "subtext": "Pick the description that feels most like your current situation.",
       "type": "card",
       "options": [
         {
+          "value": "1",
+          "label": "Foundation",
+          "theme": "Love the Game & Build Identity",
+          "description": "Fun is fading, pressure is rising, or confidence is shaky.",
+          "icon": "🌱",
+          "badge": "Stage 1"
+        },
+        {
           "value": "2",
-          "label": "Building Self-Awareness",
-          "description": "Understanding my patterns, emotions, and what drives my behavior.",
+          "label": "Self-Awareness",
+          "theme": "Learning How You Learn",
+          "description": "Emotions, self-talk, anxiety, or comparison are showing up.",
           "icon": "🔍",
           "badge": "Stage 2"
         },
         {
           "value": "3",
-          "label": "Developing Specific Skills",
-          "description": "Applying proven mental frameworks to practice and competition.",
+          "label": "Skill Acquisition",
+          "theme": "Training the Mind Like the Body",
+          "description": "Inconsistency, perfectionism, burnout risk, or training feels scattered.",
           "icon": "🛠",
           "badge": "Stage 3"
         },
         {
-          "value": "both",
-          "label": "Show Me Everything",
-          "description": "Give me the full picture across both stages.",
-          "icon": "🗺",
-          "badge": "All"
+          "value": "4",
+          "label": "Competition",
+          "theme": "Handling Pressure & Chaos",
+          "description": "Nerves, choking, spiraling after mistakes, or fear of failure.",
+          "icon": "⚡",
+          "badge": "Stage 4"
+        },
+        {
+          "value": "5",
+          "label": "Peak Performance",
+          "theme": "Competing at the Highest Level",
+          "description": "Spotlight, expectations, plateaus, or balancing sport and life.",
+          "icon": "🎯",
+          "badge": "Stage 5"
+        },
+        {
+          "value": "6",
+          "label": "Adversity & Resilience",
+          "theme": "Navigating Setbacks & Transitions",
+          "description": "Injury, being cut, disappointment, or fear of re-injury.",
+          "icon": "💪",
+          "badge": "Stage 6"
+        },
+        {
+          "value": "7",
+          "label": "Leadership & Legacy",
+          "theme": "Becoming More Than a Competitor",
+          "description": "Mentoring teammates, senior-year pressure, or navigating conflict as a leader.",
+          "icon": "🧭",
+          "badge": "Stage 7"
+        },
+        {
+          "value": "8",
+          "label": "Life After Sport",
+          "theme": "Longevity & Transition",
+          "description": "Loss of structure, identity shift, or figuring out what comes next.",
+          "icon": "🌅",
+          "badge": "Stage 8"
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "step": 3,
+      "question": "What's your biggest challenge right now?",
+      "subtext": "Pick the one that resonates most. This is the core of your personalized guide.",
+      "type": "card",
+      "options": [
+        {
+          "value": "confidence",
+          "label": "Confidence",
+          "descriptionAthlete": "I doubt myself, struggle to trust my training, or shrink under pressure.",
+          "descriptionParent": "My athlete doubts themselves or loses confidence after setbacks.",
+          "icon": "💪",
+          "audienceFilter": null
+        },
+        {
+          "value": "pressure",
+          "label": "Pressure & Nerves",
+          "descriptionAthlete": "I get anxious before competition or tighten up in big moments.",
+          "descriptionParent": "My athlete gets overwhelmed by nerves or freezes in high-stakes moments.",
+          "icon": "🔥",
+          "audienceFilter": null
+        },
+        {
+          "value": "motivation",
+          "label": "Motivation",
+          "descriptionAthlete": "I struggle to stay driven, especially when results aren't coming.",
+          "descriptionParent": "My athlete is losing interest or seems burned out.",
+          "icon": "📈",
+          "audienceFilter": null
+        },
+        {
+          "value": "mistakes",
+          "label": "Mistakes & Failure",
+          "descriptionAthlete": "I dwell on errors, spiral after bad games, or can't move on.",
+          "descriptionParent": "My athlete can't shake mistakes and takes losses too hard.",
+          "icon": "↩️",
+          "audienceFilter": null
+        },
+        {
+          "value": "identity",
+          "label": "Identity & Self-Worth",
+          "descriptionAthlete": "My value feels tied entirely to my performance or others' opinions.",
+          "descriptionParent": "My athlete's self-worth is wrapped up in sport results.",
+          "icon": "🪞",
+          "audienceFilter": null
+        },
+        {
+          "value": "overthinking",
+          "label": "Overthinking",
+          "descriptionAthlete": "I get stuck in my head during competition and can't just play.",
+          "descriptionParent": "My athlete overanalyzes and second-guesses themselves mid-game.",
+          "icon": "🧠",
+          "audienceFilter": null
+        },
+        {
+          "value": "injury",
+          "label": "Injury or Setback",
+          "descriptionAthlete": "I'm recovering from injury, being cut, or a major disappointment.",
+          "descriptionParent": "My athlete is navigating injury, deselection, or a tough setback.",
+          "icon": "🩹",
+          "audienceFilter": null
+        },
+        {
+          "value": "transition",
+          "label": "Transition",
+          "descriptionAthlete": "I'm moving to a new level, role, or facing the end of my career.",
+          "descriptionParent": "My athlete is transitioning between levels or preparing for life after sport.",
+          "icon": "🌅",
+          "audienceFilter": null
+        },
+        {
+          "value": "communication",
+          "label": "Parent–Athlete Communication",
+          "descriptionAthlete": "The dynamic with my parents around sport feels stressful or unsupportive.",
+          "descriptionParent": "I want to improve how I support and communicate with my athlete.",
+          "icon": "💬",
+          "audienceFilter": null
         }
       ]
     },
     {
       "id": "urgency",
-      "step": 5,
+      "step": 4,
       "question": "How soon do you need this?",
-      "subtext": "Helps us tailor the guide to your situation.",
+      "subtext": "Helps us prioritize which resources to surface first.",
       "type": "card",
       "options": [
         {
           "value": "high",
-          "label": "Very Soon",
-          "description": "I have a big competition, season, or event coming up.",
+          "label": "Right Now",
+          "description": "I have a competition, season opener, or critical moment coming up very soon.",
           "icon": "🔥"
         },
         {
           "value": "medium",
-          "label": "Over the Next Few Months",
-          "description": "I'm working on this consistently as part of my development.",
+          "label": "This Season",
+          "description": "I'm working on this consistently and want to build over the coming weeks.",
           "icon": "📅"
         },
         {
           "value": "low",
-          "label": "Just Exploring",
-          "description": "I'm curious about what's available and where to start.",
-          "icon": "👀"
+          "label": "Long Game",
+          "description": "I'm building habits for the long term — no immediate deadline.",
+          "icon": "🌱"
         }
       ]
     }
