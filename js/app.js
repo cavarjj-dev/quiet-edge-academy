@@ -67,8 +67,8 @@ let activePromo      = null;
 (async function init() {
   try {
     const [qRes, rRes] = await Promise.all([
-      fetch('/data/questions.json'),
-      fetch('/data/resources.json'),
+      fetch('data/questions.json'),
+      fetch('data/resources.json'),
     ]);
     questions = (await qRes.json()).questions;
     resources = (await rRes.json()).resources;
@@ -79,10 +79,13 @@ let activePromo      = null;
 })();
 
 function bindHeroButton() {
-  document.getElementById('btn-start').addEventListener('click', () => {
-    showScreen('screen-assessment');
-    renderStep(0);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  ['btn-start', 'btn-start-2', 'btn-start-3'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('click', () => {
+      showScreen('screen-assessment');
+      renderStep(0);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
   });
 }
 

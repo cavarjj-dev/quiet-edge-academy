@@ -70,8 +70,8 @@ const URGENCY_LABELS = {
 
   try {
     const [qRes, rRes] = await Promise.all([
-      fetch('/data/questions.json'),
-      fetch('/data/resources.json'),
+      fetch('../data/questions.json'),
+      fetch('../data/resources.json'),
     ]);
     const rData = await rRes.json();
     const allResources = rData.resources;

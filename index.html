@@ -3,165 +3,325 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Resource Selector — The Quiet Edge Academy</title>
-  <meta name="description" content="Answer 5 questions. Get a personalized mental performance resource guide backed by sports psychology research." />
+  <title>The Quiet Edge Academy — Find Your Mental Performance Tools</title>
+  <meta name="description" content="Answer 5 questions. Get a personalized guide of research-backed mental performance tools — built for athletes and sports parents." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-<!-- ── Navigation ──────────────────────────────────────────────────────── -->
+<!-- ── Nav ─────────────────────────────────────────────────────────────────── -->
 <nav class="nav">
-  <a class="nav-logo" href="/"><span>The Quiet Edge</span> Academy</a>
-  <span class="nav-badge">Mental Performance Tools</span>
+  <a class="nav-logo" href="#">The Quiet Edge <span>Academy</span></a>
+  <div class="nav-right">
+    <span class="nav-pill">🔬 Research-Backed</span>
+  </div>
 </nav>
 
-<!-- ── SCREEN 1: Hero / Landing ────────────────────────────────────────── -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
+<!-- SCREEN 1: Hero                                                            -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
 <section id="screen-hero">
-  <div class="container">
-    <div class="hero">
+
+  <!-- Hero -->
+  <div class="hero-section">
+    <div class="container">
       <div class="hero-eyebrow">
-        🎯 Personalized Resource Selector
+        <span class="eyebrow-dot"></span>
+        Free 2-Minute Assessment
       </div>
-      <h1>Find Your <em>Perfect</em><br>Mental Performance Tools</h1>
-      <p class="lead">
-        Answer 5 questions. Get a personalized guide of research-backed tools
-        built specifically for your challenges — whether you're an athlete or a sports parent.
+
+      <h1 class="hero-h1">
+        Stop Guessing.<br>
+        <span class="hero-accent">Find the Exact Tools</span><br>
+        Your Athlete Needs.
+      </h1>
+
+      <p class="hero-sub">
+        Answer 4 quick questions and get a personalized guide of
+        research-backed mental performance resources — matched to your
+        specific stage, challenge, and goals.
       </p>
-      <button class="btn btn-primary btn-large" id="btn-start">
-        Start Free Assessment →
-      </button>
-      <div class="trust-row">
-        <span class="trust-item"><span class="dot"></span>36 research-backed resources</span>
-        <span class="trust-item"><span class="dot"></span>Takes under 2 minutes</span>
-        <span class="trust-item"><span class="dot"></span>Free preview, $29 full guide</span>
+
+      <div class="hero-cta-wrap">
+        <button class="btn btn-hero" id="btn-start">
+          Start Free Assessment
+          <span class="btn-arrow">→</span>
+        </button>
+        <p class="hero-cta-note">Free preview · Full guide $29 · No spam</p>
+      </div>
+
+      <!-- Social proof bar -->
+      <div class="proof-bar">
+        <div class="proof-item">
+          <span class="proof-num">36</span>
+          <span class="proof-label">Research-backed tools</span>
+        </div>
+        <div class="proof-divider"></div>
+        <div class="proof-item">
+          <span class="proof-num">8</span>
+          <span class="proof-label">Developmental stages</span>
+        </div>
+        <div class="proof-divider"></div>
+        <div class="proof-item">
+          <span class="proof-num">2 min</span>
+          <span class="proof-label">To your results</span>
+        </div>
       </div>
     </div>
   </div>
-</section>
 
-<!-- ── SCREEN 2: Assessment ─────────────────────────────────────────────── -->
-<section id="screen-assessment" class="hidden">
-  <div class="container">
-
-    <!-- Progress -->
-    <div class="progress-wrap">
-      <div class="progress-steps" id="progress-steps">
-        <!-- injected by JS -->
+  <!-- Who it's for -->
+  <div class="for-section">
+    <div class="container">
+      <p class="section-label">Built for</p>
+      <div class="for-grid">
+        <div class="for-card">
+          <span class="for-icon">🏅</span>
+          <div>
+            <h3>Athletes</h3>
+            <p>Youth through elite — get tools matched to your stage, challenge, and competitive level.</p>
+          </div>
+        </div>
+        <div class="for-card">
+          <span class="for-icon">🤝</span>
+          <div>
+            <h3>Sports Parents</h3>
+            <p>Learn how to support without adding pressure — backed by peer-reviewed sport psychology.</p>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
 
-    <!-- Question area -->
-    <div class="assessment-section">
+  <!-- How it works -->
+  <div class="how-section">
+    <div class="container">
+      <p class="section-label">How it works</p>
+      <h2 class="section-h2">Your personalized guide in 3 steps</h2>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <h3>Answer 4 Questions</h3>
+          <p>Who you are, where you are in your journey, your biggest challenge, and your timeframe.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <h3>Get Your Free Preview</h3>
+          <p>See your top matched resources instantly — enter your email and we'll show you what fits.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <h3>Unlock the Full Guide</h3>
+          <p>$29 one-time unlocks all matched tools with evidence citations, direct links, and a downloadable PDF.</p>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:40px;">
+        <button class="btn btn-hero" id="btn-start-2">
+          Take the Assessment →
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- What's inside -->
+  <div class="inside-section">
+    <div class="container">
+      <p class="section-label">What you get</p>
+      <h2 class="section-h2">A guide built around <span class="teal">your</span> situation</h2>
+      <div class="inside-grid">
+        <div class="inside-item">
+          <span class="inside-icon">🎯</span>
+          <div>
+            <h4>Matched to your challenge</h4>
+            <p>Tools are ranked by fit to your specific challenge — confidence, pressure, mistakes, identity, and more.</p>
+          </div>
+        </div>
+        <div class="inside-item">
+          <span class="inside-icon">🔬</span>
+          <div>
+            <h4>Research cited for every tool</h4>
+            <p>Every resource links to the peer-reviewed sport psychology behind it. No fluff, no opinions.</p>
+          </div>
+        </div>
+        <div class="inside-item">
+          <span class="inside-icon">🛠</span>
+          <div>
+            <h4>Direct links to interactive tools</h4>
+            <p>Click straight to interactive assessments, worksheets, and self-scorers — ready to use today.</p>
+          </div>
+        </div>
+        <div class="inside-item">
+          <span class="inside-icon">📄</span>
+          <div>
+            <h4>Downloadable PDF guide</h4>
+            <p>Print or save your personalized guide. Share it with your coach, parent, or athlete.</p>
+          </div>
+        </div>
+        <div class="inside-item">
+          <span class="inside-icon">📈</span>
+          <div>
+            <h4>Covers all 8 stages</h4>
+            <p>From "keeping the love of the game" at age 8 to "life after sport" — we have tools for every stage.</p>
+          </div>
+        </div>
+        <div class="inside-item">
+          <span class="inside-icon">🔄</span>
+          <div>
+            <h4>Always growing</h4>
+            <p>New resources added with every episode. Your guide stays current as the curriculum expands.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Final CTA -->
+  <div class="final-cta-section">
+    <div class="container">
+      <div class="final-cta-box">
+        <h2>Ready to find your tools?</h2>
+        <p>Takes 2 minutes. Free preview, no credit card required.</p>
+        <button class="btn btn-hero" id="btn-start-3">
+          Start Free Assessment →
+        </button>
+        <div class="final-trust">
+          <span>✓ Free preview instantly</span>
+          <span>✓ Full guide just $29</span>
+          <span>✓ Backed by peer-reviewed research</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
+<!-- SCREEN 2: Assessment                                                      -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
+<section id="screen-assessment" class="hidden">
+  <div class="container">
+    <div class="assessment-wrap">
+
+      <!-- Progress -->
+      <div class="progress-wrap">
+        <div class="progress-steps" id="progress-steps"></div>
+      </div>
+
+      <!-- Question -->
       <div class="question-header">
-        <div class="step-indicator" id="step-indicator">Step 1 of 5</div>
+        <div class="step-indicator" id="step-indicator">Step 1 of 4</div>
         <h2 id="question-text"></h2>
         <p id="question-subtext"></p>
       </div>
 
-      <div class="card-grid" id="options-grid">
-        <!-- injected by JS -->
-      </div>
+      <div class="card-grid" id="options-grid"></div>
 
       <div class="nav-btns">
-        <button class="btn btn-secondary" id="btn-back">← Back</button>
-        <button class="btn btn-primary" id="btn-next" disabled>Continue →</button>
+        <button class="btn btn-back" id="btn-back">← Back</button>
+        <button class="btn btn-next" id="btn-next" disabled>Continue →</button>
       </div>
-    </div>
 
+    </div>
   </div>
 </section>
 
-<!-- ── SCREEN 3: Email Gate ─────────────────────────────────────────────── -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
+<!-- SCREEN 3: Email Gate                                                      -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
 <section id="screen-gate" class="hidden">
   <div class="container">
-    <div class="assessment-section">
-      <div class="email-gate">
-        <div class="gate-icon">📬</div>
-        <h2>See Your Matched Resources</h2>
-        <p>
+    <div class="gate-wrap">
+      <div class="gate-box">
+        <div class="gate-check">✓</div>
+        <h2>Your Results Are Ready</h2>
+        <p class="gate-sub">
           We found <strong id="gate-match-count">—</strong> resources matched to your profile.
-          Enter your email to see your personalized preview — free, no credit card.
+          Enter your email to see your free preview — no credit card, no spam.
         </p>
         <form id="gate-form" novalidate>
-          <div class="form-row">
-            <input type="text" name="name" id="gate-name" class="form-input" placeholder="First name" autocomplete="given-name" />
-            <input type="email" name="email" id="gate-email" class="form-input" placeholder="Your email address" autocomplete="email" required />
-          </div>
-          <button type="submit" class="btn btn-primary btn-full" id="btn-gate-submit">
-            See My Resources →
+          <input type="text"  id="gate-name"  class="form-input" placeholder="First name (optional)" autocomplete="given-name" />
+          <input type="email" id="gate-email" class="form-input" placeholder="Your email address" autocomplete="email" required />
+          <button type="submit" class="btn btn-hero btn-full" id="btn-gate-submit">
+            See My Free Preview →
           </button>
         </form>
-        <p class="gate-disclaimer">
-          No spam. One email with your results.
-          Your info is handled per our <a href="#" onclick="return false">privacy policy</a>.
-        </p>
+        <p class="gate-disclaimer">No spam, ever. One email with your results.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── SCREEN 4: Free Preview ───────────────────────────────────────────── -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
+<!-- SCREEN 4: Free Preview                                                    -->
+<!-- ══════════════════════════════════════════════════════════════════════════ -->
 <section id="screen-preview" class="hidden">
   <div class="container-wide">
-    <div class="preview-section">
+    <div class="preview-wrap">
 
       <div class="preview-header">
-        <div class="match-count-badge">
-          ✓ <span id="preview-match-label">— resources matched</span>
+        <div class="preview-badge">
+          <span class="preview-badge-dot"></span>
+          <span id="preview-match-label">— resources matched</span>
         </div>
         <h2>Your Personalized Preview</h2>
-        <p>Here are the top tools from our curriculum matched to your profile.<br>
-           Unlock the full guide to access all resources, evidence citations, and direct tool links.</p>
+        <p>Here are your top matches. Unlock the full guide for all resources, evidence citations, and direct tool links.</p>
       </div>
 
-      <div class="resource-preview-list" id="preview-list">
-        <!-- injected by JS -->
-      </div>
+      <div class="resource-preview-list" id="preview-list"></div>
 
-      <!-- Upsell block -->
-      <div class="upsell-block">
-        <div class="gate-icon">🔓</div>
-        <h2>Unlock Your Full Personalized Guide</h2>
-        <p style="margin-bottom:8px;">Everything matched to your exact profile — with the research behind each tool.</p>
-        <div class="price-display"><sup>$</sup>29</div>
-        <p class="price-note">One-time · Instant access · Downloadable PDF included</p>
+      <!-- Upsell -->
+      <div class="upsell-box">
+        <div class="upsell-top">
+          <div class="upsell-left">
+            <p class="upsell-eyebrow">Full Personalized Guide</p>
+            <h2 class="upsell-h2">Unlock Everything Matched to You</h2>
+            <ul class="feature-list">
+              <li>All matched resources — fully revealed</li>
+              <li>Research citation for every tool</li>
+              <li>Direct links to every interactive assessment</li>
+              <li>Downloadable personalized PDF guide</li>
+              <li>Resources ranked by best-fit match score</li>
+              <li>New tools added as episodes publish</li>
+            </ul>
+          </div>
+          <div class="upsell-right">
+            <div class="price-card">
+              <p class="price-label">One-time</p>
+              <div class="price-amount"><sup>$</sup>29</div>
+              <p class="price-note">Instant access · No subscription</p>
 
-        <ul class="feature-list">
-          <li>All matched resources with full descriptions</li>
-          <li>Research citations for every tool</li>
-          <li>Direct links to every interactive assessment</li>
-          <li>Downloadable personalized PDF guide</li>
-          <li>Prioritized by best-fit match score</li>
-        </ul>
+              <div class="promo-row">
+                <input type="text" id="promo-input" class="form-input form-input-sm" placeholder="Promo code" />
+                <button class="btn btn-outline-sm" id="btn-apply-promo">Apply</button>
+              </div>
+              <p class="promo-msg hidden" id="promo-msg"></p>
 
-        <div class="promo-row">
-          <input type="text" id="promo-input" class="form-input" placeholder="Promo code (optional)" />
-          <button class="btn btn-secondary" id="btn-apply-promo">Apply</button>
+              <a href="#" id="btn-stripe-checkout" class="btn btn-checkout">
+                Unlock Full Guide →
+              </a>
+              <p class="checkout-secure">🔒 Secured by Stripe</p>
+            </div>
+          </div>
         </div>
-        <p class="promo-msg hidden" id="promo-msg"></p>
-
-        <a href="#" id="btn-stripe-checkout" class="btn btn-stripe btn-large btn-full" style="max-width:360px;margin:0 auto;">
-          Unlock Full Guide — $29 →
-        </a>
-
-        <p class="stripe-badge">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.976 9.15c-2.172-.806-3.356-1.426-3.356-2.409 0-.831.683-1.305 1.901-1.305 2.227 0 4.515.858 6.09 1.631l.89-5.494C18.252.975 15.697 0 12.165 0 9.667 0 7.589.654 6.104 1.872 4.56 3.147 3.757 4.992 3.757 7.218c0 4.039 2.467 5.76 6.476 7.219 2.585.92 3.445 1.574 3.445 2.583 0 .98-.84 1.545-2.354 1.545-1.875 0-4.965-.921-6.99-2.109l-.92 5.555C5.175 22.99 8.385 24 11.714 24c2.641 0 4.843-.624 6.328-1.813 1.664-1.305 2.525-3.236 2.525-5.732 0-4.128-2.524-5.851-6.591-7.305z"/></svg>
-          Secured by Stripe · SSL encrypted
-        </p>
       </div>
 
     </div>
   </div>
 </section>
 
-<!-- ── Footer ───────────────────────────────────────────────────────────── -->
+<!-- ── Footer ───────────────────────────────────────────────────────────────── -->
 <footer class="footer">
-  <p>© 2026 The Quiet Edge · <a href="https://www.youtube.com/@TheQuietEdge" target="_blank">YouTube Channel</a> ·
-  All resources grounded in peer-reviewed sports psychology research.</p>
+  <div class="container">
+    <p class="footer-logo">The Quiet Edge <span>Academy</span></p>
+    <p>All resources grounded in peer-reviewed sports psychology research.</p>
+    <p style="margin-top:8px;">
+      <a href="https://www.youtube.com/@TheQuietEdge" target="_blank">YouTube Channel</a>
+    </p>
+  </div>
 </footer>
 
-<script src="/js/app.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
