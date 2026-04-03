@@ -1,0 +1,148 @@
+{
+  "questions": [
+    {
+      "id": "audience",
+      "step": 1,
+      "question": "Who are you?",
+      "subtext": "This shapes which resources we recommend.",
+      "type": "card",
+      "options": [
+        {
+          "value": "Athlete",
+          "label": "I'm an athlete",
+          "description": "I compete in sport and want to sharpen my mental game.",
+          "icon": "🏅"
+        },
+        {
+          "value": "Parent",
+          "label": "I'm a sports parent",
+          "description": "I support a young athlete and want to be a better resource for them.",
+          "icon": "🤝"
+        }
+      ]
+    },
+    {
+      "id": "pillar",
+      "step": 2,
+      "question": "What's your biggest challenge right now?",
+      "subtext": "Pick the one that resonates most.",
+      "type": "card",
+      "options": [
+        {
+          "value": "Psychological",
+          "label": "Mindset & Emotions",
+          "description": "Managing nerves, confidence, negative self-talk, or emotional reactions.",
+          "icon": "🧠"
+        },
+        {
+          "value": "Socio-Emotional",
+          "label": "Relationships & Communication",
+          "description": "Navigating team dynamics, coach relationships, or parent-athlete communication.",
+          "icon": "💬"
+        },
+        {
+          "value": "Technical",
+          "label": "Building Mental Skills",
+          "description": "Developing focus routines, pre-competition habits, or performance cues.",
+          "icon": "🎯"
+        },
+        {
+          "value": "Physical",
+          "label": "Mental-Physical Connection",
+          "description": "Linking mindset to physical training, recovery, and readiness.",
+          "icon": "⚡"
+        }
+      ]
+    },
+    {
+      "id": "coreValue",
+      "step": 3,
+      "question": "What do you most want to develop?",
+      "subtext": "Choose what feels most important right now.",
+      "type": "card",
+      "options": [
+        {
+          "value": "Competence",
+          "label": "Confidence & Capability",
+          "description": "Perform at my best under pressure and trust my training.",
+          "icon": "💪"
+        },
+        {
+          "value": "Mastery-Focus",
+          "label": "Process Over Results",
+          "description": "Stay focused on improvement instead of obsessing over outcomes.",
+          "icon": "📈"
+        },
+        {
+          "value": "Autonomy",
+          "label": "Ownership & Independence",
+          "description": "Take charge of my own development and think for myself.",
+          "icon": "🔑"
+        },
+        {
+          "value": "Relatedness",
+          "label": "Connection & Support",
+          "description": "Strengthen relationships and build a healthy support system.",
+          "icon": "🤲"
+        }
+      ]
+    },
+    {
+      "id": "stage",
+      "step": 4,
+      "question": "Where are you in your journey?",
+      "subtext": "Our curriculum is organized in progressive stages.",
+      "type": "card",
+      "options": [
+        {
+          "value": "2",
+          "label": "Building Self-Awareness",
+          "description": "Understanding my patterns, emotions, and what drives my behavior.",
+          "icon": "🔍",
+          "badge": "Stage 2"
+        },
+        {
+          "value": "3",
+          "label": "Developing Specific Skills",
+          "description": "Applying proven mental frameworks to practice and competition.",
+          "icon": "🛠",
+          "badge": "Stage 3"
+        },
+        {
+          "value": "both",
+          "label": "Show Me Everything",
+          "description": "Give me the full picture across both stages.",
+          "icon": "🗺",
+          "badge": "All"
+        }
+      ]
+    },
+    {
+      "id": "urgency",
+      "step": 5,
+      "question": "How soon do you need this?",
+      "subtext": "Helps us tailor the guide to your situation.",
+      "type": "card",
+      "options": [
+        {
+          "value": "high",
+          "label": "Very Soon",
+          "description": "I have a big competition, season, or event coming up.",
+          "icon": "🔥"
+        },
+        {
+          "value": "medium",
+          "label": "Over the Next Few Months",
+          "description": "I'm working on this consistently as part of my development.",
+          "icon": "📅"
+        },
+        {
+          "value": "low",
+          "label": "Just Exploring",
+          "description": "I'm curious about what's available and where to start.",
+          "icon": "👀"
+        }
+      ]
+    }
+  ]
+}

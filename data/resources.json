@@ -1,0 +1,583 @@
+{
+  "lastSynced": "2026-04-02",
+  "count": 31,
+  "resources": [
+    {
+      "id": "RES-001",
+      "title": "Emotional Pattern Tracker",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Guide",
+      "stage": 2,
+      "framework": "Notice-Name-Navigate",
+      "evidenceBase": "Emotional awareness and regulation research — affect labeling reduces intensity and improves emotional control (Lieberman et al., 2007; Gross, 2002)",
+      "learningObjectives": [
+        "Identify personal emotional patterns before and during competition",
+        "Apply the Notice-Name-Navigate framework to regulate performance-affecting emotions"
+      ],
+      "liveUrl": null,
+      "shortUrl": "https://tinyurl.com/4pthebyz",
+      "videoTitle": "How Emotions Affect Performance"
+    },
+    {
+      "id": "RES-002",
+      "title": "Self-Talk Pattern & Replacement Script",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Guide",
+      "stage": 2,
+      "framework": "Identify-Replace-Practice",
+      "evidenceBase": "Cognitive restructuring principles and self-talk research — instructional self-talk improves motor performance and emotional regulation (Hatzigeorgiadis et al., 2011; Hardy, 2006)",
+      "learningObjectives": [
+        "Identify three personal negative self-talk patterns in sport situations",
+        "Create constructive replacement scripts for pressure moments"
+      ],
+      "liveUrl": null,
+      "shortUrl": "https://tinyurl.com/2h474vab",
+      "videoTitle": "The Voice in Your Head Matters"
+    },
+    {
+      "id": "RES-003",
+      "title": "Control Circle Mapping + Daily Control Check",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Guide",
+      "stage": 2,
+      "framework": "Inside/Outside Circle + Redirect Practice",
+      "evidenceBase": "Locus of control research (Rotter, 1966) and ACT principles — psychological flexibility and focus on controllables reduces anxiety and improves performance (Hayes et al., 2006)",
+      "learningObjectives": [
+        "Differentiate between controllable and uncontrollable factors in sport",
+        "Apply the Inside/Outside Circle framework to daily stressors"
+      ],
+      "liveUrl": null,
+      "shortUrl": "https://tinyurl.com/2bdqhsfl",
+      "videoTitle": "Controlling What You Can Control"
+    },
+    {
+      "id": "RES-005",
+      "title": "Result-Reason-Response Framework",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Foundational Research",
+      "format": "Guide",
+      "stage": 2,
+      "framework": "Processing Failure Constructively",
+      "evidenceBase": "Growth mindset research (Dweck, 2006) and attribution retraining — how athletes explain failure determines motivation (Weiner, 1985)",
+      "learningObjectives": [
+        "Apply the Result-Reason-Response framework to process a recent setback",
+        "Differentiate between fixed and growth mindset attributions for failure"
+      ],
+      "liveUrl": null,
+      "shortUrl": "https://tinyurl.com/yujrvh36",
+      "videoTitle": "Reframing Failure"
+    },
+    {
+      "id": "RES-006",
+      "title": "Anchor Phrase + 5-Second Reset Practice Log",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Guide",
+      "stage": 2,
+      "framework": "Present Moment Anchoring",
+      "evidenceBase": "Mindfulness and attentional control research — present-moment focus improves performance under pressure (Moran & Toner, 2017; Bernier et al., 2009)",
+      "learningObjectives": [
+        "Create a personal anchor phrase for competitive situations",
+        "Practice the 5-Second Reset sequence in progressively higher-pressure contexts"
+      ],
+      "liveUrl": null,
+      "shortUrl": "https://tinyurl.com/4wccpwmx",
+      "videoTitle": "Staying Present Under Stress"
+    },
+    {
+      "id": "RES-007",
+      "title": "GPS Framework (Goal-Process-Scoreboard)",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Foundational Research",
+      "format": "Guide",
+      "stage": 2,
+      "framework": "Converting Outcome Goals to Process Focus",
+      "evidenceBase": "Goal-setting theory — process goals are more effective than outcome goals for complex tasks and reduce performance anxiety (Locke & Latham, 2002; Kingston & Hardy, 1997)",
+      "learningObjectives": [
+        "Differentiate between outcome goals and process goals",
+        "Apply the GPS Framework to convert one outcome goal into measurable process goals"
+      ],
+      "liveUrl": null,
+      "shortUrl": "https://tinyurl.com/56btkhh4",
+      "videoTitle": "Goals Should Guide"
+    },
+    {
+      "id": "RES-011",
+      "title": "Athlete Listening Plan and Worksheet (Standard)",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Guide",
+      "stage": 2,
+      "framework": "Stage 2 Listening Progression",
+      "evidenceBase": "Structured learning and self-regulated practice — guided listening with reflection checkpoints enhances retention and application",
+      "learningObjectives": [
+        "Create a personalized listening plan across the Stage 2 episode series",
+        "Apply key concepts from each episode through guided worksheet prompts"
+      ],
+      "liveUrl": null,
+      "shortUrl": "https://tinyurl.com/54tzjeku",
+      "videoTitle": ""
+    },
+    {
+      "id": "RES-012",
+      "title": "What's Your Post-Game Script? — Parent Self-Assessment",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Relatedness",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 2,
+      "framework": "Notice-Name-Navigate (Parent Lens) + Anxiety Reappraisal",
+      "evidenceBase": "Anxiety reappraisal research — physiological arousal is neutral; parent reframe teaches child to interpret nervousness as excitement (Brooks, 2014). Affect labeling reduces amygdala activation — precise emotional vocabulary coaching is applied neuroscience (Lieberman et al., 2007). Autonomy-supportive parenting reduces athlete anxiety and builds intrinsic motivation (Mageau & Vallerand, 2003).",
+      "learningObjectives": [
+        "Identify personal default response pattern after competition (Instinctive Protector, Performance Manager, or Emotional Coach)",
+        "Audit specific suppression phrases used in the last month and create replacement scripts"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep1p/",
+      "shortUrl": "https://tinyurl.com/287xe5a7",
+      "videoTitle": "Your Child's Emotions Are Signals"
+    },
+    {
+      "id": "RES-013",
+      "title": "The Voice in Their Head — Parent Self-Talk Audit",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Relatedness",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 2,
+      "framework": "Parent Self-Talk Modeling",
+      "evidenceBase": "Social learning theory — children learn emotional regulation by observing parent responses under stress (Bandura, 1977). Emotional contagion research shows parent sideline affect directly influences athlete performance anxiety.",
+      "learningObjectives": [
+        "Identify personal self-talk patterns that are visible to the athlete during competition",
+        "Audit sideline reactions and post-game language for modeling impact"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep2p/",
+      "shortUrl": "https://tinyurl.com/2ddqmstg",
+      "videoTitle": "Your Athlete Watches How You Handle Pressure"
+    },
+    {
+      "id": "RES-014",
+      "title": "Ownership Builds Confidence — Parent Responsibility Toolkit",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 2,
+      "framework": "Autonomy-Supportive Parenting + Responsibility Scaffolding",
+      "evidenceBase": "Self-determination theory — autonomy support from parents predicts intrinsic motivation and psychological well-being (Deci & Ryan, 2000). Overprotective parenting undermines self-efficacy development (Bandura, 1997).",
+      "learningObjectives": [
+        "Identify where parental involvement crosses from support into ownership",
+        "Apply autonomy-supportive language in post-game conversations"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep3p/",
+      "shortUrl": "https://tinyurl.com/2cowyaoc",
+      "videoTitle": "Ownership Builds Confidence"
+    },
+    {
+      "id": "RES-015",
+      "title": "Progress Recognition Toolkit — For Parents",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 2,
+      "framework": "Trait → Outcome → Progress Recognition Spectrum",
+      "evidenceBase": "Process praise research — specific process-focused feedback builds more durable confidence than outcome praise (Dweck, 2006; Mueller & Dweck, 1998). Evidence-based confidence is built through acknowledged mastery experiences (Bandura, 1997).",
+      "learningObjectives": [
+        "Distinguish between trait praise, outcome praise, and progress recognition",
+        "Identify which recognition pattern is most common in their current feedback style"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep4p/",
+      "shortUrl": "https://tinyurl.com/2b5532l4",
+      "videoTitle": "Small Wins Build Real Confidence"
+    },
+    {
+      "id": "RES-016",
+      "title": "What's Your Failure Response Pattern? — Parent Self-Assessment",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Relatedness",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 2,
+      "framework": "Acknowledge → Space → Process + Result → Reason → Response (Failure Response Pattern Audit)",
+      "evidenceBase": "Emotion coaching vs. dismissing parenting styles — emotion-coached children recover faster from setbacks and develop stronger resilience (Gottman & DeClaire, 1997). Growth mindset framework — parent attributions after failure shape child identity and motivation (Dweck, 2006). Autonomy-supportive parenting — acknowledging feelings and giving processing space builds intrinsic motivation and persistence (Mageau & Vallerand, 2003).",
+      "learningObjectives": [
+        "Identify dominant failure response pattern (Comfort Seeker, Amplifier, or Resilience Coach)",
+        "Audit specific post-game language and behaviors across the first 24 hours after a failure"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep5p/",
+      "shortUrl": "https://tinyurl.com/25bn3lrp",
+      "videoTitle": "What to Say When Your Kid Fails"
+    },
+    {
+      "id": "RES-017",
+      "title": "Multi Child Family Navigator — Regulation Support by Emotional Profile",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Relatedness",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 2,
+      "framework": "4-Step Regulation Support Model (Name → Validate → Teach → Identify) × Child Emotional Profile",
+      "evidenceBase": "Affect labeling reduces amygdala activation — naming emotions is applied neuroscience (Lieberman et al., 2007). Suppression produces higher internal stress than reappraisal even when children appear outwardly calm (Gross, 2002). Emotion-coaching parents raise children who recover faster from setbacks and demonstrate greater resilience (Gottman & DeClaire, 1997).",
+      "learningObjectives": [
+        "Identify the emotional regulation profile of each child in their household",
+        "Apply the 4-Step Regulation Support Model to each child's specific emotional style with personalized scripts"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep6p/",
+      "shortUrl": "https://tinyurl.com/2bdybzch",
+      "videoTitle": "Teaching Emotional Regulation (Not Suppression)"
+    },
+    {
+      "id": "RES-018",
+      "title": "Parent Alignment Discussion Guide",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Relatedness",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Guide",
+      "stage": 2,
+      "framework": "Co-Parenting Alignment — shared regulation language and consistent emotional environment",
+      "evidenceBase": "Consistent parenting environments reduce child anxiety and improve emotional security (Gottman & DeClaire, 1997). Autonomy-supportive parenting from both caregivers amplifies intrinsic motivation outcomes (Mageau & Vallerand, 2003).",
+      "learningObjectives": [
+        "Align both caregivers on emotional regulation language and approach",
+        "Identify areas of divergence in parenting responses to athlete emotions"
+      ],
+      "liveUrl": null,
+      "shortUrl": "https://tinyurl.com/sma75c93",
+      "videoTitle": "Teaching Emotional Regulation (Not Suppression)"
+    },
+    {
+      "id": "RES-019",
+      "title": "Co-Parenting Through Youth Sports",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Relatedness",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 2,
+      "framework": "Parenting Style Alignment + Unified Emotional Support Protocol",
+      "evidenceBase": "Inconsistent parenting environments elevate child stress and undermine regulation development (Gottman & DeClaire, 1997). SDT relatedness need — children need consistent, predictable emotional environments from caregivers to develop secure self-regulation (Deci & Ryan, 2000).",
+      "learningObjectives": [
+        "Identify co-parenting patterns that create emotional inconsistency for the athlete",
+        "Develop a shared emotional language and response protocol between caregivers"
+      ],
+      "liveUrl": null,
+      "shortUrl": "https://tinyurl.com/24bpcuc7",
+      "videoTitle": "Teaching Emotional Regulation (Not Suppression)"
+    },
+    {
+      "id": "RES-020",
+      "title": "GPS Goal-Builder — Parent Edition",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 2,
+      "framework": "GPS Goals (Goal → Process → Scoreboard) — Parent Facilitation Role",
+      "evidenceBase": "Goal-setting theory — process goals outperform outcome goals for complex tasks and reduce performance anxiety (Locke & Latham, 2002; Kingston & Hardy, 1997). Autonomy-supportive parenting — collaborative goal conversations build intrinsic motivation and reduce performance pressure (Mageau & Vallerand, 2003; Deci & Ryan, 2000). Growth mindset goal language — process-framed parent feedback builds more durable athlete confidence than outcome focus (Dweck, 2006; Müller & Dweck, 1998).",
+      "learningObjectives": [
+        "Audit current goal-related language for outcome vs. process orientation",
+        "Apply the GPS Framework to convert an athlete's outcome goal into daily process actions"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep7p/",
+      "shortUrl": "https://tinyurl.com/26kvhwx9",
+      "videoTitle": "Process Goals Over Outcomes"
+    },
+    {
+      "id": "RES-021",
+      "title": "Am I Effort-First? One-Week Parent Reaction Tracker",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 2,
+      "framework": "Effort vs. Outcome Reaction Audit + 7-Day Behavioral Tracking",
+      "evidenceBase": "Attribution theory — parent effort attributions build child resilience and intrinsic motivation; outcome attributions build anxiety and fragility (Weiner, 1985). SDT competence need satisfaction — effort-based mastery feedback builds more durable intrinsic motivation than result-based evaluation (Deci & Ryan, 2000). Autonomy-supportive parenting in the post-competition window directly reduces athlete anxiety and builds persistence (Mageau & Vallerand, 2003).",
+      "learningObjectives": [
+        "Track personal emotional reactions across 7 game/practice events and identify effort vs. result orientation",
+        "Audit specific post-competition behaviors using the two-column effort/result behavior checklist"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep8p/",
+      "shortUrl": "https://tinyurl.com/2xmyo2q8",
+      "videoTitle": "Effort Over Results"
+    },
+    {
+      "id": "RES-022",
+      "title": "Sideline Reset Audit — Parent Edition",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Relatedness",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 2,
+      "framework": "ACR (Acknowledge, Correct, Refocus) — Sideline Presence Audit",
+      "evidenceBase": "Gottman emotion coaching — parent emotional response to child mistakes directly shapes the child's emotional regulation skill and resilience (Gottman & DeClaire, 1997). Parental autonomy support in mistake contexts accelerates intrinsic motivation recovery and builds self-regulation (Mageau & Vallerand, 2003). Self-talk and mental imagery in mistake recovery — consistent parent modeling of calm reset behavior teaches athletes to internalize ACR as a skill (Hatzigeorgiadis et al., 2011).",
+      "learningObjectives": [
+        "Identify personal default response pattern across 8 sideline mistake scenarios (Weight-Adder, Dismisser, or Reset-Supporter)",
+        "Recognize four specific undermining behaviors that slow athlete mistake recovery"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep9p/",
+      "shortUrl": "https://tinyurl.com/2yal3oj5",
+      "videoTitle": "Mistake Reset"
+    },
+    {
+      "id": "RES-024",
+      "title": "Deliberate Practice Session Planner (FCFA Loop)",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Foundational Research",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Focus → Challenge → Feedback → Adjust (FCFA Loop)",
+      "evidenceBase": "Deliberate practice research — volume alone does not predict expertise; focused, goal-directed practice with immediate feedback is the primary driver of skill acquisition (Ericsson et al., 1993). Self-monitoring and evaluation are central to expert development (Zimmerman, 2002). Specific process goals drive higher performance than vague effort (Locke & Latham, 2002).",
+      "learningObjectives": [
+        "Audit recent practice sessions to identify which FCFA elements are consistently missing",
+        "Apply the pre-practice FCFA planning template before every deliberate practice session"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep1/",
+      "shortUrl": "https://tinyurl.com/29hjko4m",
+      "videoTitle": "Ep. 11: Why Your Practice Hours Aren't Making You Better"
+    },
+    {
+      "id": "RES-023",
+      "title": "Post-Game Question Guide — Parent Edition",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 2,
+      "framework": "Ask-First Protocol — Five Questions Framework (Ask First, Calibrate, Recognize)",
+      "evidenceBase": "Self-determination theory — autonomy-supportive parenting behaviors (asking vs. telling) build intrinsic motivation and accurate self-evaluation (Deci & Ryan, 2000). Self-evaluation accuracy predicts greater resilience and motivation (Zimmerman, 2000). Athletes dependent on external evaluation show lower intrinsic motivation and reduced regulatory capacity (Mageau & Vallerand, 2003).",
+      "learningObjectives": [
+        "Identify current post-game communication pattern (Teller, Reassurer, Asker, or Avoider)",
+        "Apply the Five Questions Framework after every game to build athlete self-evaluation"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep10p/",
+      "shortUrl": "https://tinyurl.com/2cajewn5",
+      "videoTitle": "The Inner Scoreboard — Parent Edition"
+    },
+    {
+      "id": "RES-026",
+      "title": "Mental Cue Playbook Builder",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Cue Word Theory + Constrained Action Hypothesis (4 Rules: Short · Action · Feel · Test)",
+      "evidenceBase": "Instructional self-talk improves precision motor tasks over motivational self-talk (Hatzigeorgiadis et al., 2011). Cue function is task-dependent — instructional for technique (Hardy, 2006). Constrained Action Hypothesis: external/process-cue focus prevents prefrontal override of trained motor programs (Wulf, 2013).",
+      "learningObjectives": [
+        "Identify 3–5 specific competition situations where execution cues are needed",
+        "Script one trigger word per situation using the 4-Rule framework"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep3/",
+      "shortUrl": "https://tinyurl.com/22f4zkf9",
+      "videoTitle": "Ep. 3: The One Word That Fixes Your Freeze"
+    },
+    {
+      "id": "RES-027",
+      "title": "Mid-Game Refocus Card Builder",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Notice → Name → Next (Attentional Reset Protocol)",
+      "evidenceBase": "Attentional narrowing under stress reduces cognitive flexibility (Easterbrook, 1959). Self-talk and attentional focus strategies improve performance under pressure (Hatzigeorgiadis et al., 2011). Simplified decision-making improves execution under time/stress constraints (Beilock, 2010).",
+      "learningObjectives": [],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep4/",
+      "shortUrl": "https://tinyurl.com/27sagbvc",
+      "videoTitle": "Ep. 4: The 5-Second Reset When You're Spiraling"
+    },
+    {
+      "id": "RES-028",
+      "title": "Competition Process Planner",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Outcome-Process-Execute",
+      "evidenceBase": "Kingston & Hardy (1997) — process goals outperform outcome goals, reduce anxiety; Hayes et al. (2006) — psychological flexibility and commitment to controllable action; Locke & Latham (2002) — specific goals lead to higher performance",
+      "learningObjectives": [],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep5/",
+      "shortUrl": "https://tinyurl.com/2bmz98ye",
+      "videoTitle": "The Mental Switch Elite Athletes Make Mid-Game"
+    },
+    {
+      "id": "RES-029",
+      "title": "Mental Rep Builder — Visualization Script Generator",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Foundational Research",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "PETTLEP Model (Physical · Environment · Task · Timing · Learning · Emotion · Perspective)",
+      "evidenceBase": "Functional equivalence hypothesis — vivid motor imagery activates same efferent neural pathways as physical execution (Jeannerod, 1994). PETTLEP model operationalizes athlete-specific functional imagery (Holmes & Collins, 2001). Mental practice produces measurable cortical adaptation equivalent to physical practice (Pascual-Leone et al., 1995).",
+      "learningObjectives": [
+        "Apply the PETTLEP framework to construct a complete, multi-sensory visualization script for a sport-specific scenario",
+        "Differentiate between perfect-execution imagery and adversity-recovery imagery and explain why both are required"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep7/",
+      "shortUrl": "https://tinyurl.com/2yufbd94",
+      "videoTitle": "Ep. 7: Your Brain Can't Tell the Difference"
+    },
+    {
+      "id": "RES-030",
+      "title": "4-Step System Builder + Weekly Habit Tracker",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "4-Step System Builder (Non-Negotiables → Schedule → Remove Decision → Start Smaller)",
+      "evidenceBase": "Habit formation and implementation intentions — specific action plans reduce decision fatigue and increase follow-through (Gollwitzer, 1999). Self-regulation via structured routines shown to sustain consistent effort independent of motivational state (Baumeister & Tierney, 2011).",
+      "learningObjectives": [
+        "Apply the 4-Step System Builder to construct one concrete training habit with a scheduled time and minimum viable session",
+        "Differentiate between motivation-dependent and system-driven training approaches and identify personal patterns"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep9/",
+      "shortUrl": "https://tinyurl.com/2abjltpx",
+      "videoTitle": "Ep. 9: The System That Trains You on Bad Days"
+    },
+    {
+      "id": "RES-031",
+      "title": "Competition Conditions Design Map",
+      "audience": "Athlete",
+      "pillar": "Technical",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Worksheet",
+      "stage": 3,
+      "framework": "5 Elements of Competition-Like Practice (Pressure, Decision-Making, Fatigue, Distraction, Variability) + 20–30% Rule",
+      "evidenceBase": "Specificity of learning and motor transfer (Schmidt & Lee, 2014); Deliberate practice principles (Ericsson et al., 1993); Desirable difficulties (Bjork, 1994)",
+      "learningObjectives": [
+        "Audit current practice against 5 competition-like conditions using a structured self-assessment",
+        "Identify the highest-priority gap between practice and competition demands"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep10/",
+      "shortUrl": "https://tinyurl.com/226qqoyu",
+      "videoTitle": "Ep. 10: Why Your Practice Isn't Preparing You for Games"
+    },
+    {
+      "id": "RES-032",
+      "title": "Training Load Audit — Parent Edition",
+      "audience": "Parent",
+      "pillar": "Physical",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Adaptation Equation (Training → Breakdown → Recovery → Adaptation → Improvement)",
+      "evidenceBase": "Ericsson et al. (1993) — volume alone does not predict expertise; Schmidt & Lee (2014) — fatigue degrades motor learning; Deci & Ryan (2000) — overtraining undermines intrinsic motivation",
+      "learningObjectives": [
+        "Calculate total weekly training load and identify whether it falls within appropriate developmental guidelines",
+        "Recognize the 5 warning sign categories of overtraining syndrome in youth athletes"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep2p/",
+      "shortUrl": "https://tinyurl.com/269umtjw",
+      "videoTitle": "Ep. 2: More Training Is Actually Hurting Your Kid"
+    },
+    {
+      "id": "RES-033",
+      "title": "Sideline Self-Check — Parent Edition",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Cognitive Load Theory (Beilock & Carr) + Autonomy-Supportive Parenting (Mageau & Vallerand) — 5-dimension sideline behavior profile",
+      "evidenceBase": "",
+      "learningObjectives": [],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep3p/",
+      "shortUrl": "https://tinyurl.com/24ej26u8",
+      "videoTitle": "Your Silence Is the Best Coaching"
+    },
+    {
+      "id": "RES-034",
+      "title": "Game Day Protocol Card — Parent Edition",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Cognitive Load Theory (Beilock & Carr) + Before/During/After Sideline Protocol — personalized game day behavior card",
+      "evidenceBase": "",
+      "learningObjectives": [],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep4p/",
+      "shortUrl": "https://tinyurl.com/248noz24",
+      "videoTitle": "Your Yelling Is Making Them Play Worse"
+    },
+    {
+      "id": "RES-035",
+      "title": "Post-Game Conversation Self-Scorer — Where Is My Focus After the Game?",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Outcome Pressure Audit — 5-Dimension Post-Game Self-Score",
+      "evidenceBase": "Nicholls (1989) — ego-involving evaluation environments produce anxiety, lower intrinsic motivation, fragile confidence; Mageau & Vallerand (2003) — autonomy-supportive parenting reduces anxiety and builds persistence; Deci & Ryan (2000) — outcome-contingent approval communicates conditional regard, undermining relatedness and competence needs",
+      "learningObjectives": [
+        "Score your most recent post-game interactions across 5 outcome-vs-process dimensions to identify your current default orientation",
+        "Recognize implicit outcome pressure signals (emotional reactions, silence, tone) that communicate evaluation even without words"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep5p/",
+      "shortUrl": "https://tinyurl.com/29mu2ddq",
+      "videoTitle": "Ep. 5: The Hidden Way Parents Block Their Athlete's Development"
+    },
+    {
+      "id": "RES-036",
+      "title": "Pre-Competition Environment Audit — Parent Edition",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Environment Provider Framework — 4 Support Behaviors + 4 Routine Disruptors Self-Audit",
+      "evidenceBase": "Cotterill (2010) — pre-performance routines reduce cognitive anxiety via predictability/familiarity; Feldman (2007) — parent emotional co-regulation transmits arousal to athlete through non-verbal signals; Mageau & Vallerand (2003) — autonomy-supportive spacing reduces competitive anxiety",
+      "learningObjectives": [
+        "Score your current pre-competition behaviors across 4 support behaviors and 4 routine disruptors to establish your baseline environment profile",
+        "Identify the single highest-impact disruptor in your typical pre-competition pattern"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep6p/",
+      "shortUrl": "https://tinyurl.com/2a2fvcuf",
+      "videoTitle": "Ep. 6: The Hidden Ways Parents Disrupt Their Athlete's Pre-Game Routine"
+    }
+  ]
+}

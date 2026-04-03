@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Personalized Guide — The Quiet Edge Academy</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="print-target">
+
+<!-- ── Navigation ──────────────────────────────────────────────────────── -->
+<nav class="nav" id="site-nav">
+  <a class="nav-logo" href="/"><span>The Quiet Edge</span> Academy</a>
+  <span class="nav-badge">Your Personalized Guide</span>
+</nav>
+
+<!-- ── Loading ─────────────────────────────────────────────────────────── -->
+<div id="screen-loading" class="loading-state">
+  <div class="spinner"></div>
+  <p>Loading your personalized guide…</p>
+</div>
+
+<!-- ── Access Error ─────────────────────────────────────────────────────── -->
+<div id="screen-error" class="error-state hidden">
+  <div class="container">
+    <h2>Access Required</h2>
+    <p style="margin-bottom:24px;">This page is only available after completing the assessment and unlocking your guide.</p>
+    <a href="/" class="btn btn-primary">Take the Assessment →</a>
+  </div>
+</div>
+
+<!-- ── Full Results ─────────────────────────────────────────────────────── -->
+<div id="screen-results" class="hidden">
+
+  <div class="container-wide">
+
+    <!-- Header -->
+    <div class="results-header">
+      <div class="eyebrow">Your Personalized Mental Performance Guide</div>
+      <h1>Your <span class="teal">Matched Resources</span></h1>
+      <p class="dim" id="results-subtitle">Ranked by best-fit match to your profile.</p>
+    </div>
+
+    <!-- Summary box -->
+    <div class="summary-box" id="summary-box">
+      <h3>Your Profile</h3>
+      <div class="summary-grid" id="summary-grid">
+        <!-- injected by JS -->
+      </div>
+    </div>
+
+    <!-- Toolbar -->
+    <div class="results-toolbar">
+      <div class="results-summary-pill">
+        <strong id="results-count">—</strong>&nbsp;resources matched to your profile
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+        <button class="btn btn-secondary" onclick="window.print()">⬇ Download PDF</button>
+        <a href="/" class="btn btn-secondary">Retake Assessment</a>
+      </div>
+    </div>
+
+    <!-- Resource cards -->
+    <div class="full-resource-list" id="full-resource-list">
+      <!-- injected by JS -->
+    </div>
+
+    <!-- PDF download prompt -->
+    <div class="pdf-btn-wrap">
+      <button class="btn btn-primary btn-large" onclick="window.print()">
+        ⬇ Download Your Guide as PDF
+      </button>
+      <p class="pdf-disclaimer">
+        In Chrome/Edge: File → Print → Save as PDF.<br>
+        Tip: select "Background graphics" for best results.
+      </p>
+    </div>
+
+    <!-- Footer note -->
+    <div class="summary-box" style="text-align:center;margin-bottom:60px;">
+      <p style="margin-bottom:12px;">
+        <strong style="color:var(--text)">New resources are added every week</strong> as we release new episodes.
+      </p>
+      <p>
+        Follow <a href="https://www.youtube.com/@TheQuietEdge" target="_blank" style="color:var(--teal)">The Quiet Edge on YouTube</a>
+        to get notified when new tools are released —
+        each one is built to complement the research in the video.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ── Footer ───────────────────────────────────────────────────────────── -->
+<footer class="footer" id="site-footer">
+  <p>© 2026 The Quiet Edge · All resources grounded in peer-reviewed sports psychology research.</p>
+</footer>
+
+<script src="/js/results.js"></script>
+</body>
+</html>
