@@ -5,7 +5,7 @@
 
 // ── Config ─────────────────────────────────────────────────────────────────
 const CONFIG = {
-  ZAPIER_WEBHOOK:     'https://hooks.zapier.com/hooks/catch/15752387/un7qb69/',
+  WORKER_URL:         'https://qe-academy-intake.quietedge.workers.dev',
   STRIPE_PAYMENT_LINK:'https://buy.stripe.com/9B68wIfuBbz8f6c11jbsc00',
   FREE_PREVIEW_COUNT: 3,   // number of resource cards shown in free preview
   PROMO_CODES: {
@@ -226,8 +226,8 @@ function bindGateForm() {
     btn.disabled = true;
     btn.textContent = 'Processing…';
 
-    // Fire-and-forget to Zapier webhook (non-blocking for UX)
-    submitToZapier(buildZapierPayload(name, email)).catch(console.warn);
+    // Fire-and-forget to Worker (non-blocking for UX)
+    submitToWorker(buildZapierPayload(name, email)).catch(console.warn);
 
     // Save to localStorage so results page can load data
     saveToStorage();
@@ -239,9 +239,10 @@ function bindGateForm() {
   });
 }
 
-async function submitToZapier(payload) {
-  await fetch(CONFIG.ZAPIER_WEBHOOK, {
+async function submitToWorker(payload) {
+  await fetch(`${CONFIG.WORKER_URL}/submit`, {
     method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload),
   });
 }
