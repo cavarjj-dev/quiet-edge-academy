@@ -7,8 +7,8 @@
 
 // ── Config ─────────────────────────────────────────────────────────────────
 const CONFIG = {
-  FORMSPREE_ID:       'YOUR_FORMSPREE_ID',        // replace with your Formspree form ID
-  STRIPE_PAYMENT_LINK:'https://buy.stripe.com/YOUR_LINK', // replace with your Stripe Payment Link
+  FORMSPREE_ID:       'mwvwnjnp',
+  STRIPE_PAYMENT_LINK:'https://buy.stripe.com/9B68wIfuBbz8f6c11jbsc00',
   FREE_PREVIEW_COUNT: 3,   // number of resource cards shown in free preview
   PROMO_CODES: {
     // code → { discount: '20%', multiplier: 0.80, label: '20% off' }
