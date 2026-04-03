@@ -1,13 +1,11 @@
 /**
  * The Quiet Edge Academy — Resource Selector
- * app.js: assessment engine, scoring, email gate, Formspree, Stripe wiring
- *
- * CONFIG: Update FORMSPREE_ID and STRIPE_PAYMENT_LINK before launch.
+ * app.js: assessment engine, scoring, email gate, Zapier webhook, Stripe wiring
  */
 
 // ── Config ─────────────────────────────────────────────────────────────────
 const CONFIG = {
-  FORMSPREE_ID:       'mwvwnjnp',
+  ZAPIER_WEBHOOK:     'https://hooks.zapier.com/hooks/catch/15752387/un7qb69/',
   STRIPE_PAYMENT_LINK:'https://buy.stripe.com/9B68wIfuBbz8f6c11jbsc00',
   FREE_PREVIEW_COUNT: 3,   // number of resource cards shown in free preview
   PROMO_CODES: {
@@ -185,15 +183,21 @@ function scoreResources(ans, res) {
     .sort((a, b) => b.score - a.score);
 }
 
-// ── Populate hidden fields for Formspree ────────────────────────────────────
-function populateHiddenFields() {
-  const topIds = matchedResources.slice(0, 8).map(r => r.id).join(', ');
-  document.getElementById('hidden-audience').value  = answers.audience  || '';
-  document.getElementById('hidden-pillar').value    = answers.pillar    || '';
-  document.getElementById('hidden-coreValue').value = answers.coreValue || '';
-  document.getElementById('hidden-stage').value     = answers.stage     || '';
-  document.getElementById('hidden-urgency').value   = answers.urgency   || '';
-  document.getElementById('hidden-matched').value   = topIds;
+// ── Build Zapier payload from current state ──────────────────────────────────
+function buildZapierPayload(name, email) {
+  const stageLabel = { '2': 'Stage 2', '3': 'Stage 3', 'both': 'Both' }[answers.stage] || answers.stage;
+  return {
+    name:              name,
+    email:             email,
+    audience:          answers.audience  || '',
+    challenge_area:    answers.pillar    || '',
+    core_need:         answers.coreValue || '',
+    stage:             stageLabel,
+    urgency:           answers.urgency   || '',
+    matched_resources: matchedResources.slice(0, 8).map(r => r.id).join(', '),
+    access_level:      'Free',
+    submission_date:   new Date().toISOString().split('T')[0],
+  };
 }
 
 // ── Save assessment to localStorage (for results page) ──────────────────────
@@ -209,12 +213,11 @@ function saveToStorage() {
 // ── Email gate ───────────────────────────────────────────────────────────────
 function bindGateForm() {
   const form = document.getElementById('gate-form');
-  form.action = `https://formspree.io/f/${CONFIG.FORMSPREE_ID}`;
-  form.method = 'POST';
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const email = document.getElementById('gate-email').value.trim();
+    const name  = document.getElementById('gate-name').value.trim();
     if (!email || !email.includes('@')) {
       document.getElementById('gate-email').focus();
       return;
@@ -223,8 +226,8 @@ function bindGateForm() {
     btn.disabled = true;
     btn.textContent = 'Processing…';
 
-    // Fire-and-forget to Formspree (non-blocking for UX)
-    submitToFormspree(form).catch(console.warn);
+    // Fire-and-forget to Zapier webhook (non-blocking for UX)
+    submitToZapier(buildZapierPayload(name, email)).catch(console.warn);
 
     // Save to localStorage so results page can load data
     saveToStorage();
@@ -236,12 +239,10 @@ function bindGateForm() {
   });
 }
 
-async function submitToFormspree(form) {
-  const data = new FormData(form);
-  await fetch(form.action, {
+async function submitToZapier(payload) {
+  await fetch(CONFIG.ZAPIER_WEBHOOK, {
     method: 'POST',
-    body: data,
-    headers: { 'Accept': 'application/json' },
+    body: JSON.stringify(payload),
   });
 }
 
