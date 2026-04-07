@@ -1,6 +1,6 @@
 {
-  "lastSynced": "2026-04-03",
-  "count": 32,
+  "lastSynced": "2026-04-07",
+  "count": 33,
   "resources": [
     {
       "id": "RES-001",
@@ -597,6 +597,26 @@
       "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep7p/",
       "shortUrl": "https://tinyurl.com/2yz3pvw5",
       "videoTitle": "Ep. 7: Why Visualization Works — And How Parents Can Help (Or Get Out of the Way)"
+    },
+    {
+      "id": "RES-038",
+      "title": "Fatigue or Character? — Post-Game Observation Reframe Tool",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Fatigue Signal vs. Character Assessment — 4 Parent Traps + 4 Parent Roles",
+      "evidenceBase": "Schmidt & Lee (2014) — fatigue degrades motor execution of patterns trained in fresh conditions; neurological skill degradation under fatigue is a training gap signal, not a motivation failure. Deci & Ryan (2000) — competence-need satisfaction: curiosity-based post-game language preserves intrinsic motivation and growth orientation. Weiss & Amorose (2008) — parent attributional feedback after performance directly shapes athlete's self-efficacy trajectory.",
+      "learningObjectives": [
+        "Distinguish between fatigue-driven performance decline and character/effort signals using a structured observation framework",
+        "Identify which of the 4 parent traps (judgment, comparison, prescription, withdrawal) you default to after poor late-game performance",
+        "Apply curiosity-based reframe language to replace reactive post-game comments with development-oriented questions"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep8p/",
+      "shortUrl": "https://tinyurl.com/2deyzsva",
+      "videoTitle": "Ep. 8: Why Your Athlete Falls Apart Late in Games"
     }
   ]
 }
