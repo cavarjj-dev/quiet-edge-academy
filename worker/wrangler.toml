@@ -4,7 +4,7 @@ compatibility_date = "2024-01-01"
 
 [vars]
 NOTION_DATABASE_ID = "ffc9aee0a1ea42eaacb5765f329ecad2"
-NOTIFY_EMAIL = "juliancjohnson@live.com"
+NOTIFY_EMAIL = "julian@unifiedsolutionsinc.com"
 ALLOWED_ORIGIN = "https://cavarjj-dev.github.io"
 
 # Secrets (set via: npx wrangler secret put SECRET_NAME)

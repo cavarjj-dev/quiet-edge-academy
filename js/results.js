@@ -28,6 +28,9 @@ const CORE_LABELS = {
 const STAGE_LABELS = {
   '2':    'Stage 2 — Self Awareness',
   '3':    'Stage 3 — Skill Acquisition',
+  '4':    'Stage 4 — Competition',
+  '5':    'Stage 5 — Peak Performance',
+  '6':    'Stage 6 — Adversity & Resilience',
   'both': 'All Stages',
 };
 const URGENCY_LABELS = {

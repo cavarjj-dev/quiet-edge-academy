@@ -1,6 +1,6 @@
 {
-  "lastSynced": "2026-04-07",
-  "count": 33,
+  "lastSynced": "2026-05-12",
+  "count": 43,
   "resources": [
     {
       "id": "RES-001",
@@ -637,6 +637,181 @@
       "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep9p/",
       "shortUrl": "https://tinyurl.com/2dewod7c",
       "videoTitle": "Ep. 9: Stop Being Your Athlete's Motivator"
+    },
+    {
+      "id": "RES-043",
+      "title": "Practice Pressure Support Audit — Parent Edition",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Practice-Competition Gap — 4 Undermining Behaviors + Reframe Scripts",
+      "evidenceBase": "Battig (1979) — Contextual Interference Effect. Meichenbaum (1985) — Stress Inoculation Training.",
+      "learningObjectives": [
+        "Identify your support tier",
+        "Identify your dominant undermining behavior",
+        "Apply reframe scripts"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep10p/",
+      "shortUrl": "https://tinyurl.com/2xv8kp4r",
+      "videoTitle": "Why Hard Practice Is Supposed to Feel That Way"
+    },
+    {
+      "id": "RES-040",
+      "title": "Pressure Signal Log",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Foundational Research",
+      "format": "Interactive Assessment",
+      "stage": 4,
+      "framework": "Pressure Reading — Name → Reframe → Pattern-Track → Calibrate",
+      "evidenceBase": "Jamieson et al. (2013) — stress reappraisal. Lazarus & Folkman (1984) — appraisal theory.",
+      "learningObjectives": [
+        "Name pressure signals",
+        "Track signal-performance correlations",
+        "Apply reappraisal"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep1/",
+      "shortUrl": "https://tinyurl.com/2y43z3d9",
+      "videoTitle": "Nerves mean you care — not that you're weak."
+    },
+    {
+      "id": "RES-041",
+      "title": "What Does Your Pre-Game Language Signal? — Parent Language Audit",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 4,
+      "framework": "Stop → Notice → Validate — Parent Pressure Language Profile",
+      "evidenceBase": "Crum et al. (2013) — stress mindset transmission. Feldman (2007) — co-regulation.",
+      "learningObjectives": [
+        "Identify language pattern",
+        "Analyze threat vs. resource signaling",
+        "Apply validated exchange format"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep1p/",
+      "shortUrl": "https://tinyurl.com/222l3e36",
+      "videoTitle": "Why Pressure Moments Are Developmental"
+    },
+    {
+      "id": "RES-042",
+      "title": "Arousal Calibration Log",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 4,
+      "framework": "Arousal Zone Protocol (Rate → Read → Regulate → Log)",
+      "evidenceBase": "Yerkes & Dodson (1908) — inverted-U arousal curve. Hanin (2000) — IZOF model.",
+      "learningObjectives": [
+        "Identify arousal zone signals",
+        "Apply regulation techniques in 60 seconds",
+        "Build season-arc pattern data"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep2/",
+      "shortUrl": "https://tinyurl.com/247pr7b2",
+      "videoTitle": "Your Pre-Game Energy Is Working Against You"
+    },
+    {
+      "id": "RES-044",
+      "title": "Train Sharp — Quality Threshold Tracker",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Quality Threshold Tracking (High / Medium / Low per rep — rate execution quality, not quantity)",
+      "evidenceBase": "Deliberate practice research — quality of focused reps predicts skill acquisition more reliably than volume; self-monitoring of execution standard is a central mechanism of expert development (Ericsson et al., 1993; Zimmerman, 2002).",
+      "learningObjectives": [
+        "Rate execution quality (High / Medium / Low) for each rep category across a practice session",
+        "Identify the rep types where quality consistently drops and apply the threshold standard to raise the floor"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep2/",
+      "shortUrl": null,
+      "videoTitle": "Ep. 2: Train Sharp, Not Tired"
+    },
+    {
+      "id": "RES-045",
+      "title": "Fatigue Training Protocol Builder",
+      "audience": "Athlete",
+      "pillar": "Technical",
+      "coreValue": "Competence",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "Fatigue Protocol Design (Skill + Fatigue Method + Focus Cue + 4-Week Technique & Attention Tracker)",
+      "evidenceBase": "Specificity of learning and motor transfer — skills trained under fresh conditions fail under fatigue unless practiced in those conditions (Schmidt & Lee, 2014). Deliberate practice under progressively demanding constraints accelerates skill consolidation (Ericsson et al., 1993).",
+      "learningObjectives": [
+        "Design a deliberate fatigue practice block by specifying skill, fatigue method, and focus cue",
+        "Track technique and attention quality across 4 weeks to identify where execution degrades under load"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep8/",
+      "shortUrl": null,
+      "videoTitle": "Ep. 8: Why Your Skills Break Down When It Counts"
+    },
+    {
+      "id": "RES-046",
+      "title": "Practice Quality Checker — Parent Edition",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 3,
+      "framework": "FCFA Observer Framework — 4 Deliberate Practice Elements (Focus, Challenge, Feedback, Adjust) applied through post-practice parent questions",
+      "evidenceBase": "Deliberate practice research — the four FCFA elements are the primary predictors of skill acquisition, not volume (Ericsson et al., 1993). Autonomy-supportive parenting — asking quality-focused questions rather than evaluating outcomes builds intrinsic motivation and accurate self-assessment in athletes (Mageau & Vallerand, 2003; Zimmerman, 2002).",
+      "learningObjectives": [
+        "Score your child's last three practices across the 4 deliberate practice elements to identify which are present and which are missing",
+        "Replace outcome-focused post-practice comments with FCFA-aligned questions that develop the athlete's self-evaluation skill"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep1p/",
+      "shortUrl": "https://tinyurl.com/2bg92v86",
+      "videoTitle": "Ep. 1: You're Measuring Practice Wrong"
+    },
+    {
+      "id": "RES-047",
+      "title": "Know Your Athlete's Zone — Parent Edition",
+      "audience": "Parent",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 4,
+      "framework": "Zone of Optimal Functioning — Performance State Profile (Audit Default Pattern → Log Zone Data → Apply Language Shift)",
+      "evidenceBase": "Hanin (2000) — Individual Zone of Optimal Functioning: each athlete has a unique optimal arousal state; prescribing a universal energy level pulls them away from their zone. Yerkes & Dodson (1908) — inverted-U arousal curve. Feldman (2007) — parent language before competition transmits arousal state to the athlete through emotional co-regulation.",
+      "learningObjectives": [
+        "Audit your default pre-competition language to identify whether you are prescribing a specific energy state for your athlete",
+        "Use the Performance State Log to observe and record your athlete's zone across multiple competitions and apply the language exchange from this episode"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep2p/",
+      "shortUrl": null,
+      "videoTitle": "Your Pre-Game Energy Is Working Against You — Parent Edition"
+    },
+    {
+      "id": "RES-048",
+      "title": "The Process Contract",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Foundational Research",
+      "format": "Interactive Assessment",
+      "stage": 4,
+      "framework": "3-Part Attention Training Framework (Pre-Session Contract → Pre-Competition Anchor → Post-Game Debrief) — 3 weeks",
+      "evidenceBase": "Beilock (2010) — outcome monitoring disrupts automatic skill execution; the prefrontal cortex overrides trained motor programs when attention shifts to result evaluation. Nideffer (1976) — attentional focus theory. Kingston & Hardy (1997) — process goals outperform outcome goals and reduce competitive anxiety by removing result monitoring from the execution loop.",
+      "learningObjectives": [
+        "Pre-decide one process behavior anchor before every high-stakes session to prevent attention splitting during execution",
+        "Apply the 3-week Process Contract framework to build a competition-day attention routine that holds under pressure"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep3/",
+      "shortUrl": "https://tinyurl.com/255cmnrl",
+      "videoTitle": "Ep. 3: Letting Go of Results"
     }
   ]
 }
