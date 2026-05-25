@@ -1,6 +1,14 @@
 {
-  "lastSynced": "2026-05-12",
-  "count": 43,
+  "lastSynced": "2026-05-25",
+  "count": 40,
+  "stats": {
+    "byAudience": {
+      "Athlete": 17,
+      "Parent": 23
+    },
+    "withLiveUrl": 31,
+    "withShortUrl": 40
+  },
   "resources": [
     {
       "id": "RES-001",
@@ -589,7 +597,7 @@
       "format": "Interactive Assessment",
       "stage": 3,
       "framework": "Validate / Protect / Create Environment — Parent's 3-Part Role in Mental Practice",
-      "evidenceBase": "Jeannerod (1994) — motor imagery activates same neural pathways as physical execution; Holmes & Collins (2001) — PETTLEP model: quality of conditions determines neural encoding strength; Feldman (2007) — parent emotional state transfers to athlete non-verbally; Mageau & Vallerand (2003) — autonomy-supportive step-back reduces athlete anxiety",
+      "evidenceBase": "Jeannerod (1994) — motor imagery activates same neural pathways as physical execution (functional equivalence); Holmes & Collins (2001) — PETTLEP model: quality of imagery conditions determines neural encoding strength; Feldman (2007) — parent emotional state transfers to athlete via non-verbal co-regulation; Mageau & Vallerand (2003) — autonomy-supportive step-back behavior reduces athlete anxiety",
       "learningObjectives": [
         "Score your current behavior across the three parent roles (Validate, Protect, Create Environment) to identify your strongest support area and biggest gap",
         "Distinguish between productive visualization and worry spiraling based on observable behavioral signals"
@@ -611,8 +619,7 @@
       "evidenceBase": "Schmidt & Lee (2014) — fatigue degrades motor execution of patterns trained in fresh conditions; neurological skill degradation under fatigue is a training gap signal, not a motivation failure. Deci & Ryan (2000) — competence-need satisfaction: curiosity-based post-game language preserves intrinsic motivation and growth orientation. Weiss & Amorose (2008) — parent attributional feedback after performance directly shapes athlete's self-efficacy trajectory.",
       "learningObjectives": [
         "Distinguish between fatigue-driven performance decline and character/effort signals using a structured observation framework",
-        "Identify which of the 4 parent traps (judgment, comparison, prescription, withdrawal) you default to after poor late-game performance",
-        "Apply curiosity-based reframe language to replace reactive post-game comments with development-oriented questions"
+        "Identify which of the 4 parent traps (judgment, comparison, prescription, withdrawal) you default to after poor late-game performance"
       ],
       "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep8p/",
       "shortUrl": "https://tinyurl.com/2deyzsva",
@@ -620,26 +627,6 @@
     },
     {
       "id": "RES-039",
-      "title": "Am I the Motivator or the System Supporter?",
-      "audience": "Parent",
-      "pillar": "Psychological",
-      "coreValue": "Autonomy",
-      "evidenceLevel": "Applied Evidence-Based",
-      "format": "Interactive Assessment",
-      "stage": 3,
-      "framework": "Motivator vs. System Supporter — 4 Saboteur Patterns + 3-Pillar Framework",
-      "evidenceBase": "Deci & Ryan (2000) — autonomy support from parents predicts long-term intrinsic motivation; daily external push shifts athletes toward external regulation and away from self-determination. Mageau & Vallerand (2003) — parental autonomy support in practice contexts accelerates intrinsic motivation recovery and builds self-regulation. Gottman & DeClaire (1997) — parents who scaffold rather than solve raise children with stronger persistence and initiative.",
-      "learningObjectives": [
-        "Identify your dominant parenting pattern (Daily Motivator, Rescue Parent, or System Supporter) across 5 real practice scenarios",
-        "Recognize the 4 motivation saboteurs you may be using daily without realizing their impact on intrinsic drive",
-        "Apply the Shift Script — specific language swaps that put ownership back on the athlete without creating conflict"
-      ],
-      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep9p/",
-      "shortUrl": "https://tinyurl.com/2dewod7c",
-      "videoTitle": "Ep. 9: Stop Being Your Athlete's Motivator"
-    },
-    {
-      "id": "RES-043",
       "title": "Practice Pressure Support Audit — Parent Edition",
       "audience": "Parent",
       "pillar": "Psychological",
@@ -647,16 +634,15 @@
       "evidenceLevel": "Applied Evidence-Based",
       "format": "Interactive Assessment",
       "stage": 3,
-      "framework": "Practice-Competition Gap — 4 Undermining Behaviors + Reframe Scripts",
-      "evidenceBase": "Battig (1979) — Contextual Interference Effect. Meichenbaum (1985) — Stress Inoculation Training.",
+      "framework": "Practice-Competition Gap — 4 Mechanisms + 4 Undermining Behaviors + Reframe Scripts",
+      "evidenceBase": "Battig (1979) — Contextual Interference Effect. Meichenbaum (1985) — Stress Inoculation Training. Bandura (1997) — mastery under pressure. Mageau & Vallerand (2003) — autonomy-supportive parents.",
       "learningObjectives": [
-        "Identify your support tier",
-        "Identify your dominant undermining behavior",
-        "Apply reframe scripts"
+        "Score your current practice-response behaviors across 8 behavioral indicators to identify your support tier",
+        "Identify which of the 4 undermining behaviors most often shows up in your responses"
       ],
       "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep10p/",
       "shortUrl": "https://tinyurl.com/2xv8kp4r",
-      "videoTitle": "Why Hard Practice Is Supposed to Feel That Way"
+      "videoTitle": "Ep. 10: Why Hard Practice Is Supposed to Feel That Way"
     },
     {
       "id": "RES-040",
@@ -668,15 +654,14 @@
       "format": "Interactive Assessment",
       "stage": 4,
       "framework": "Pressure Reading — Name → Reframe → Pattern-Track → Calibrate",
-      "evidenceBase": "Jamieson et al. (2013) — stress reappraisal. Lazarus & Folkman (1984) — appraisal theory.",
+      "evidenceBase": "Jamieson, Mendes & Nock (2013) — stress reappraisal outperforms calming strategies. Beilock & Carr (2001) — attentional redirection preserves execution under pressure. Lazarus & Folkman (1984) — threat vs. challenge appraisal.",
       "learningObjectives": [
-        "Name pressure signals",
-        "Track signal-performance correlations",
-        "Apply reappraisal"
+        "Identify and name physical pressure signals before high-stakes events without cognitive interpretation",
+        "Track signal-performance correlations across a 3–4 week season arc"
       ],
       "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep1/",
       "shortUrl": "https://tinyurl.com/2y43z3d9",
-      "videoTitle": "Nerves mean you care — not that you're weak."
+      "videoTitle": "Ep. 1: Nerves mean you care — not that you're weak."
     },
     {
       "id": "RES-041",
@@ -688,15 +673,14 @@
       "format": "Interactive Assessment",
       "stage": 4,
       "framework": "Stop → Notice → Validate — Parent Pressure Language Profile",
-      "evidenceBase": "Crum et al. (2013) — stress mindset transmission. Feldman (2007) — co-regulation.",
+      "evidenceBase": "Crum, Salovey & Achor (2013) — stress mindsets are socially transmitted through parent language. Jamieson et al. (2013) — stress reappraisal produces better physiological outcomes. Feldman (2007) — co-regulation via nonverbal signals.",
       "learningObjectives": [
-        "Identify language pattern",
-        "Analyze threat vs. resource signaling",
-        "Apply validated exchange format"
+        "Identify your default language pattern (Neutralizer / Cheerleader / Fixer / Observer) in pre-competition situations",
+        "Analyze whether your pre-game language signals threat or resource using Stop → Notice → Validate"
       ],
       "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep1p/",
       "shortUrl": "https://tinyurl.com/222l3e36",
-      "videoTitle": "Why Pressure Moments Are Developmental"
+      "videoTitle": "Ep. 1: Why Pressure Moments Are Developmental"
     },
     {
       "id": "RES-042",
@@ -708,110 +692,71 @@
       "format": "Interactive Assessment",
       "stage": 4,
       "framework": "Arousal Zone Protocol (Rate → Read → Regulate → Log)",
-      "evidenceBase": "Yerkes & Dodson (1908) — inverted-U arousal curve. Hanin (2000) — IZOF model.",
+      "evidenceBase": "Yerkes & Dodson (1908) — inverted-U: performance peaks at optimal arousal, degrades at both extremes. Hanin (2000) — IZOF: optimal arousal is athlete-specific and event-specific; season tracking required. Hardy, Jones & Gould (1996) — regulation technique personalization outperforms prescribed protocols.",
       "learningObjectives": [
-        "Identify arousal zone signals",
-        "Apply regulation techniques in 60 seconds",
-        "Build season-arc pattern data"
+        "Identify personal arousal signals at each zone level (flat, in-zone, wired) using physical and cognitive markers",
+        "Apply personalized up- or down-regulation techniques based on pre-event rating within 60 seconds"
       ],
       "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep2/",
       "shortUrl": "https://tinyurl.com/247pr7b2",
-      "videoTitle": "Your Pre-Game Energy Is Working Against You"
+      "videoTitle": "Ep. 2: Controlling Arousal Levels"
     },
     {
-      "id": "RES-044",
-      "title": "Train Sharp — Quality Threshold Tracker",
-      "audience": "Athlete",
-      "pillar": "Psychological",
-      "coreValue": "Mastery-Focus",
-      "evidenceLevel": "Applied Evidence-Based",
-      "format": "Interactive Assessment",
-      "stage": 3,
-      "framework": "Quality Threshold Tracking (High / Medium / Low per rep — rate execution quality, not quantity)",
-      "evidenceBase": "Deliberate practice research — quality of focused reps predicts skill acquisition more reliably than volume; self-monitoring of execution standard is a central mechanism of expert development (Ericsson et al., 1993; Zimmerman, 2002).",
-      "learningObjectives": [
-        "Rate execution quality (High / Medium / Low) for each rep category across a practice session",
-        "Identify the rep types where quality consistently drops and apply the threshold standard to raise the floor"
-      ],
-      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep2/",
-      "shortUrl": "https://tinyurl.com/yrws7rrw",
-      "videoTitle": "Ep. 2: Train Sharp, Not Tired"
-    },
-    {
-      "id": "RES-045",
-      "title": "Fatigue Training Protocol Builder",
-      "audience": "Athlete",
-      "pillar": "Technical",
-      "coreValue": "Competence",
-      "evidenceLevel": "Applied Evidence-Based",
-      "format": "Interactive Assessment",
-      "stage": 3,
-      "framework": "Fatigue Protocol Design (Skill + Fatigue Method + Focus Cue + 4-Week Technique & Attention Tracker)",
-      "evidenceBase": "Specificity of learning and motor transfer — skills trained under fresh conditions fail under fatigue unless practiced in those conditions (Schmidt & Lee, 2014). Deliberate practice under progressively demanding constraints accelerates skill consolidation (Ericsson et al., 1993).",
-      "learningObjectives": [
-        "Design a deliberate fatigue practice block by specifying skill, fatigue method, and focus cue",
-        "Track technique and attention quality across 4 weeks to identify where execution degrades under load"
-      ],
-      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep8/",
-      "shortUrl": null,
-      "videoTitle": "Ep. 8: Why Your Skills Break Down When It Counts"
-    },
-    {
-      "id": "RES-046",
-      "title": "Practice Quality Checker — Parent Edition",
-      "audience": "Parent",
-      "pillar": "Psychological",
-      "coreValue": "Autonomy",
-      "evidenceLevel": "Applied Evidence-Based",
-      "format": "Interactive Assessment",
-      "stage": 3,
-      "framework": "FCFA Observer Framework — 4 Deliberate Practice Elements (Focus, Challenge, Feedback, Adjust) applied through post-practice parent questions",
-      "evidenceBase": "Deliberate practice research — the four FCFA elements are the primary predictors of skill acquisition, not volume (Ericsson et al., 1993). Autonomy-supportive parenting — asking quality-focused questions rather than evaluating outcomes builds intrinsic motivation and accurate self-assessment in athletes (Mageau & Vallerand, 2003; Zimmerman, 2002).",
-      "learningObjectives": [
-        "Score your child's last three practices across the 4 deliberate practice elements to identify which are present and which are missing",
-        "Replace outcome-focused post-practice comments with FCFA-aligned questions that develop the athlete's self-evaluation skill"
-      ],
-      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep1p/",
-      "shortUrl": "https://tinyurl.com/2bg92v86",
-      "videoTitle": "Ep. 1: You're Measuring Practice Wrong"
-    },
-    {
-      "id": "RES-047",
-      "title": "Know Your Athlete's Zone — Parent Edition",
+      "id": "RES-043",
+      "title": "Know Your Athlete's Zone — Performance State Profile (Parent Edition)",
       "audience": "Parent",
       "pillar": "Psychological",
       "coreValue": "Autonomy",
       "evidenceLevel": "Applied Evidence-Based",
       "format": "Interactive Assessment",
       "stage": 4,
-      "framework": "Zone of Optimal Functioning — Performance State Profile (Audit Default Pattern → Log Zone Data → Apply Language Shift)",
-      "evidenceBase": "Hanin (2000) — Individual Zone of Optimal Functioning: each athlete has a unique optimal arousal state; prescribing a universal energy level pulls them away from their zone. Yerkes & Dodson (1908) — inverted-U arousal curve. Feldman (2007) — parent language before competition transmits arousal state to the athlete through emotional co-regulation.",
+      "framework": "Performance State Profile (Observe → Record → Support)",
+      "evidenceBase": "Hanin (2000) — IZOF: optimal arousal is athlete-specific; season tracking required to identify personal zone. Feldman (2007) — co-regulation: parent emotional state transmitted through micro-signals. Mageau & Vallerand (2003) — autonomy-supportive adults produce athletes with lower pre-competition anxiety.",
       "learningObjectives": [
-        "Audit your default pre-competition language to identify whether you are prescribing a specific energy state for your athlete",
-        "Use the Performance State Log to observe and record your athlete's zone across multiple competitions and apply the language exchange from this episode"
+        "Identify your default pre-competition behavior pattern (prescriber, affirmer, absorber, checker)",
+        "Track athlete pre-game energy level (1-10) against performance quality across 3-4 weeks"
       ],
       "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep2p/",
       "shortUrl": "https://tinyurl.com/2bvn9npp",
-      "videoTitle": "Your Pre-Game Energy Is Working Against You — Parent Edition"
+      "videoTitle": "Ep. 2: You're Reading Your Athlete's Energy Wrong"
     },
     {
-      "id": "RES-048",
-      "title": "The Process Contract",
+      "id": "RES-044",
+      "title": "The Process Contract — 3-Week Attention Training Tracker (Athlete Edition)",
       "audience": "Athlete",
       "pillar": "Psychological",
-      "coreValue": "Mastery-Focus",
-      "evidenceLevel": "Foundational Research",
-      "format": "Interactive Assessment",
+      "coreValue": "Focus",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Tracker",
       "stage": 4,
-      "framework": "3-Part Attention Training Framework (Pre-Session Contract → Pre-Competition Anchor → Post-Game Debrief) — 3 weeks",
-      "evidenceBase": "Beilock (2010) — outcome monitoring disrupts automatic skill execution; the prefrontal cortex overrides trained motor programs when attention shifts to result evaluation. Nideffer (1976) — attentional focus theory. Kingston & Hardy (1997) — process goals outperform outcome goals and reduce competitive anxiety by removing result monitoring from the execution loop.",
+      "framework": "Process Contract (Pre-Session Contract → Mid-Competition Anchor → Post-Game Process Review)",
+      "evidenceBase": "Beilock (2010) — Choke: evaluative pressure causes explicit monitoring of automated skills, disrupting execution. Eysenck (2010) — Attentional Control Theory: anxiety shifts attention to threat-relevant stimuli. Vealey (2001) — sport confidence: pre-decided process goals buffer outcome pressure. Duda & Hall (2001) — process vs. outcome goal orientation as predictor of performance under pressure.",
       "learningObjectives": [
-        "Pre-decide one process behavior anchor before every high-stakes session to prevent attention splitting during execution",
-        "Apply the 3-week Process Contract framework to build a competition-day attention routine that holds under pressure"
+        "Define one process behavior (execution cue) before each session",
+        "Use a personal anchor phrase to redirect attention during competition"
       ],
       "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep3/",
       "shortUrl": "https://tinyurl.com/255cmnrl",
       "videoTitle": "Ep. 3: Letting Go of Results"
+    },
+    {
+      "id": "RES-045",
+      "title": "Zone Witness Protocol — Parent Observation Kit",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Applied Evidence-Based",
+      "format": "Interactive Assessment",
+      "stage": 4,
+      "framework": "Zone Witness Protocol — 3 parts: Sideline Observation (3-week no-comparison challenge) · Zone Signature Log (per-game observation entries) · Check-In Script (state-reflection language)",
+      "evidenceBase": "Hanin (2000) — IZOF: each athlete has a personal optimal arousal bandwidth; no universal ready exists. Duda & Ntoumanis (2003–2005) — ego-involving comparison language correlates with elevated competitive anxiety even when parent tone is supportive. Bandura (1997) — athletes with internal self-assessment show greater confidence stability than those relying on normative comparison. Janelle & Hillman (2003) — elite athletes know what their own ready feels like, not what it looks like in others.",
+      "learningObjectives": [
+        "Identify their current default sideline response (Observer, Coach, or Comparer) using the self-assessment",
+        "Apply the Zone Witness observation practice across 3 weeks of competition without comparison language"
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep3p/",
+      "shortUrl": "https://tinyurl.com/2c5esb85",
+      "videoTitle": "Ep. 3: Why Your Sideline Habit Is Hurting Their Zone"
     }
   ]
 }
