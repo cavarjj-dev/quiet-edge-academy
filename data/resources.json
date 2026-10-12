@@ -1,13 +1,13 @@
 {
-  "lastSynced": "2026-05-25",
-  "count": 40,
+  "lastSynced": "2026-10-12",
+  "count": 61,
   "stats": {
     "byAudience": {
-      "Athlete": 17,
-      "Parent": 23
+      "Athlete": 29,
+      "Parent": 32
     },
-    "withLiveUrl": 31,
-    "withShortUrl": 40
+    "withLiveUrl": 52,
+    "withShortUrl": 39
   },
   "resources": [
     {
@@ -735,9 +735,8 @@
         "Define one process behavior (execution cue) before each session",
         "Use a personal anchor phrase to redirect attention during competition"
       ],
-      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep3/",
-      "shortUrl": "https://tinyurl.com/255cmnrl",
-      "videoTitle": "Ep. 3: Letting Go of Results"
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep4/",
+      "videoTitle": "Ep. 4: Letting Go of Results"
     },
     {
       "id": "RES-045",
@@ -757,6 +756,392 @@
       "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep3p/",
       "shortUrl": "https://tinyurl.com/2c5esb85",
       "videoTitle": "Ep. 3: Why Your Sideline Habit Is Hurting Their Zone"
+    },
+    {
+      "id": "RES-062",
+      "title": "ACR Practice Log",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 2,
+      "framework": "Acknowledge, Correct, Refocus",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Name the miss.",
+        "Correct one thing.",
+        "Refocus on the next rep."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep9/",
+      "videoTitle": "Ep. 9: Learning to Reset After Mistakes"
+    },
+    {
+      "id": "RES-063",
+      "title": "5 Questions Self-Evaluation Template",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 2,
+      "framework": "Building Internal Standards",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Answer the five questions after the session.",
+        "Use your own standard, not someone else's score."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/ep10/",
+      "videoTitle": "Ep. 10: Building an Inner Scoreboard"
+    },
+    {
+      "id": "RES-064",
+      "title": "Train Sharp: Quality Threshold Session Tracker",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 3,
+      "framework": "Quality over volume. Seven-session log.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Log the quality of the session, not only the minutes.",
+        "Stop when the quality drops."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep2/",
+      "videoTitle": "Ep. 2: Why Short, Focused Training Beats More Training"
+    },
+    {
+      "id": "RES-065",
+      "title": "My Pre-Game Routine",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 3,
+      "framework": "60, 30, 15, and 5 minute countdown",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Write what you do at 60, 30, 15, and 5 minutes.",
+        "Write the four components after you watch. Do not add a step the episode did not name."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep6/",
+      "videoTitle": "Ep. 6: Building Pre-Game Routines"
+    },
+    {
+      "id": "RES-066",
+      "title": "Fatigue Training Protocol Builder",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 3,
+      "framework": "Attention under fatigue",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Build the protocol on the live page.",
+        "Train attention when you are tired, not only when you are fresh."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep8/",
+      "videoTitle": "Ep. 8: Training Attention Under Fatigue"
+    },
+    {
+      "id": "RES-046",
+      "title": "Practice Quality Checker",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 3,
+      "framework": "Measure the practice, not only the hours",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Check the quality of the session.",
+        "Do not score the practice by time alone."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep1p/",
+      "videoTitle": "Ep. 1: You're Measuring Practice Wrong"
+    },
+    {
+      "id": "RES-047",
+      "title": "Am I the Motivator or the System Supporter?",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 3,
+      "framework": "Motivator or system supporter",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Name which role you played today.",
+        "Support the system instead of supplying the motivation."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage3/ep9p/",
+      "videoTitle": "Ep. 9: Stop Being Your Athlete's Motivator"
+    },
+    {
+      "id": "RES-048",
+      "title": "Zone Profile Builder",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Map the internal signature of your best performance",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Name what your best performance feels like from the inside.",
+        "Use that signature as a check, not as a mood to force."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep3/",
+      "videoTitle": "Ep. 3: Your Zone Isn't Luck. It's a System."
+    },
+    {
+      "id": "RES-049",
+      "title": "The Meaning Switch",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Same feeling. Different meaning. First-rep log.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Name the feeling.",
+        "Give it a different meaning.",
+        "Log the first rep."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep5/",
+      "videoTitle": "Ep. 5: Turning Nerves Into Energy"
+    },
+    {
+      "id": "RES-050",
+      "title": "The Next-Play Reset",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Miss, cue, next rep",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "After a miss, use the cue.",
+        "Go to the next rep."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep6/",
+      "videoTitle": "Ep. 6: Staying Locked In After Errors"
+    },
+    {
+      "id": "RES-051",
+      "title": "The Trust Cue",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "One cue. Mid-rep. Let the skill run.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Pick one cue.",
+        "Use it mid-rep.",
+        "Let the skill run."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep7/",
+      "videoTitle": "Ep. 7: Competing Without Overthinking"
+    },
+    {
+      "id": "RES-052",
+      "title": "The Game Switch",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Marker. Prep ends. First real rep.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Set the marker.",
+        "End the prep.",
+        "Take the first real rep."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep8/",
+      "videoTitle": "Ep. 8: Switching Into Game Mode"
+    },
+    {
+      "id": "RES-053",
+      "title": "The Same Cue",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Competence",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Quiet cue. Loud minute. Same words.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Use the same words in the quiet minute and the loud minute."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep9/",
+      "videoTitle": "Ep. 9: The Same Cue"
+    },
+    {
+      "id": "RES-054",
+      "title": "The Already-In Check",
+      "audience": "Athlete",
+      "pillar": "Psychological",
+      "coreValue": "Mastery-Focus",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Name one trained thing. Run it. Do not invent.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Name one trained thing.",
+        "Run it.",
+        "Do not invent a new plan on the spot."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep10/",
+      "videoTitle": "Ep. 10: Already In"
+    },
+    {
+      "id": "RES-055",
+      "title": "The Post-Game Delay",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Relatedness",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Ride home is not the review. Private note. Next day, if it is still worth saying.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Do not review on the ride home.",
+        "Write the note in private.",
+        "Say it the next day only if it is still worth saying."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep4p/",
+      "videoTitle": "Ep. 4: Why Post-Game Analysis Needs a Delay"
+    },
+    {
+      "id": "RES-056",
+      "title": "The Meaning Guard",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Catch the rename. Hold the sentence. Held, leaked, or coached.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Catch the rename.",
+        "Hold the sentence.",
+        "Mark it held, leaked, or coached."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep5p/",
+      "videoTitle": "Ep. 5: Protecting the Sentence"
+    },
+    {
+      "id": "RES-057",
+      "title": "The Error Seat",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Stay down. One line or nothing. Held, leaked, or coached.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Stay down after the error.",
+        "One line, or nothing."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep6p/",
+      "videoTitle": "Ep. 6: The Second Error"
+    },
+    {
+      "id": "RES-058",
+      "title": "The Rule Hold",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Catch the sentence. Nothing or one line. Sit with it.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Catch the extra sentence.",
+        "Nothing, or one line.",
+        "Sit with it."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep7p/",
+      "videoTitle": "Ep. 7: The Extra Instruction"
+    },
+    {
+      "id": "RES-059",
+      "title": "The Door Hold",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Catch the extra prep. Nothing or one line. Sit with it.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Catch the extra prep.",
+        "Nothing, or one line.",
+        "Sit with it."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep8p/",
+      "videoTitle": "Ep. 8: The Door Hold"
+    },
+    {
+      "id": "RES-060",
+      "title": "Held Face",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Relatedness",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "Still and quiet. Not performing calm.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Keep the face still.",
+        "Do not perform calm."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep9p/",
+      "videoTitle": "Ep. 9: Held Face"
+    },
+    {
+      "id": "RES-061",
+      "title": "The Return",
+      "audience": "Parent",
+      "pillar": "Socio-Emotional",
+      "coreValue": "Autonomy",
+      "evidenceLevel": "Series practice",
+      "format": "Interactive Tool",
+      "stage": 4,
+      "framework": "One episode that fits now. Page, or watch only.",
+      "evidenceBase": "This is the episode practice on the live page. It is not a new paper.",
+      "learningObjectives": [
+        "Pick one episode that fits now.",
+        "Use the page, or watch only."
+      ],
+      "liveUrl": "https://cavarjj-dev.github.io/quiet-edge-tools/stage4/ep10p/",
+      "videoTitle": "Ep. 10: The Return"
     }
   ]
 }

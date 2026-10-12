@@ -108,7 +108,7 @@ function scoreResources(ans, res) {
   const stageFilter = ans.stage === 'both' ? null : parseInt(ans.stage);
   return res
     .filter(r => r.audience === ans.audience)
-    .filter(r => stageFilter === null || r.stage === stageFilter)
+    .filter(r => stageFilter === null || Number(r.stage) === stageFilter)
     .map(r => {
       let score = 0;
       if (r.pillar    === ans.pillar)     score += 3;
@@ -182,7 +182,7 @@ function renderResults(answers, matched) {
         <div class="resource-card-score">${scoreLabel}</div>
       </div>
       <div class="resource-card-body">
-        ${r.evidenceBase ? `<div class="evidence"><strong>Research:</strong> ${r.evidenceBase}</div>` : ''}
+        ${r.evidenceBase ? `<div class="evidence"><strong>${r.evidenceLevel === 'Series practice' ? 'Practice' : 'Research'}:</strong> ${r.evidenceBase}</div>` : ''}
         ${objectives}
       </div>
       <div class="resource-card-actions">

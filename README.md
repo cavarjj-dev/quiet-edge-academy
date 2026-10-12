@@ -23,7 +23,7 @@ Personalized mental performance resource guide for athletes and sports parents.
 - Create a **Payment Link** in Stripe Dashboard ($29 one-time)
 - Enable "Redirect after payment" → `https://cavarjj-dev.github.io/quiet-edge-academy/results/?unlocked=true`
 - Set `CONFIG.STRIPE_PAYMENT_LINK` in `js/app.js`
-- Optionally add promo codes in the `CONFIG.PROMO_CODES` object
+- Create promotion codes in the Stripe Dashboard, on the Payment Link. Do not put a discount back in the browser. LAUNCH is retired. A code in the page used to change the displayed price only. It did not change the charge.
 
 ### 3. Notion CRM
 - Database already created: **QE Resource Selector — Leads CRM**
@@ -64,13 +64,6 @@ quiet-edge-academy/
     └── sync-inventory.js — Regenerates data/resources.json
 ```
 
-## Promo codes (current)
+## Promo codes
 
-| Code | Discount | Intended for |
-|------|----------|--------------|
-| `COACH20` | 20% | Coaches |
-| `PARENT15` | 15% | Parent edition viewers |
-| `TEAM10` | 10% | Team/club bulk |
-| `LAUNCH` | 30% | Launch window |
-
-Add new codes in `CONFIG.PROMO_CODES` in `js/app.js`.
+Do not add codes in `js/app.js`. Create them in Stripe, and turn on promotion codes for the Payment Link. LAUNCH is retired.

@@ -8,12 +8,6 @@ const CONFIG = {
   WORKER_URL:         'https://qe-academy-intake.quietedge.workers.dev',
   STRIPE_PAYMENT_LINK:'https://buy.stripe.com/9B68wIfuBbz8f6c11jbsc00',
   FREE_PREVIEW_COUNT: 3,
-  PROMO_CODES: {
-    'COACH20':  { discount: '20%', multiplier: 0.80, label: '20% off — Coach discount applied' },
-    'PARENT15': { discount: '15%', multiplier: 0.85, label: '15% off — Parent Edition discount applied' },
-    'TEAM10':   { discount: '10%', multiplier: 0.90, label: '10% off — Team discount applied' },
-    'LAUNCH':   { discount: '30%', multiplier: 0.70, label: '30% off — Launch special applied' },
-  },
   BASE_PRICE: 29,
 };
 
@@ -47,13 +41,11 @@ const STAGE_META = {
 const STAGE_PLAYLISTS = {
   '1': { Athlete: 'https://www.youtube.com/playlist?list=PLhj0UiZpacExGZHNtWx5bsAvRXyi1TNHJ', Parent: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEwedHxPI4NoZt5BdT0F1lxl' },
   '2': { Athlete: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEwBkurYE58B5g4s_QIifwOh', Parent: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEzvI2PC9z5EVHO3rfvzKC7K' },
-  '3': { Athlete: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEwOOT_FhXaH0tuyPjIkmHKV', Parent: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEzekP16cOX5yK2RH31ZEITz' },
+  '3': { Athlete: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEwOOT_FhXaH0tuyPjIkmHKV', Parent: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEzDEWPSV0jb3iuF4uh7X9V5' },
   '4': { Athlete: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEwqXfzYVHc5ZvtC7NFCi5ER', Parent: 'https://www.youtube.com/playlist?list=PLhj0UiZpacExo_ktsZHG_Po_YgJkQ4d7b' },
-  '5': { Athlete: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEwm1sBkWvtSQtfOSMrnQHDS', Parent: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEyRQz9G-KwvMz3DySArGS34' },
-  '6': { Athlete: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEztsKhNzMFIAO8043wC5pJ2', Parent: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEz8hv2ifT9_01CFV-M-lwJ4' },
-  '7': { Athlete: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEyl69tO_svnVJZFS5cVvP-4', Parent: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEzMV56SQ2guiPzB17JkL7eo' },
-  '8': { Athlete: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEwoj3Iv6aY7QHak0y1lWTXQ', Parent: 'https://www.youtube.com/playlist?list=PLhj0UiZpacEyOPNJilMTOJSI2o5sauw4L' },
 };
+
+const COMING_SOON = new Set(['5', '6', '7', '8']);
 
 // ── State ───────────────────────────────────────────────────────────────────
 let questions        = [];
@@ -175,6 +167,11 @@ function onNext() {
   if (currentStep < questions.length - 1) {
     renderStep(currentStep + 1);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  } else if (COMING_SOON.has(String(answers.stage))) {
+    matchedResources = [];
+    showScreen('screen-preview');
+    renderPreview();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   } else {
     matchedResources = scoreResources(answers, resources);
     const count = matchedResources.length;
@@ -201,7 +198,8 @@ function onBack() {
 // Tertiary: challenge → pillar/coreValue match (2pts each)
 // Bonus: live tool (+0.5), foundational evidence (+0.5)
 function scoreResources(ans, res) {
-  const selectedStage = parseInt(ans.stage) || 2;
+  if (COMING_SOON.has(String(ans.stage))) return [];
+  const selectedStage = parseInt(ans.stage, 10) || 2;
   const challengeMap  = CHALLENGE_MAP[ans.challenge] || {};
   const matchPillars  = challengeMap.pillars    || [];
   const matchValues   = challengeMap.coreValues || [];
@@ -216,8 +214,8 @@ function scoreResources(ans, res) {
       let score = 0;
 
       // Stage match
-      if (r.stage === selectedStage)              score += 3;
-      else if (Math.abs(r.stage - selectedStage) === 1) score += 1;
+      if (Number(r.stage) === selectedStage) score += 3;
+      else if (Math.abs(Number(r.stage) - selectedStage) === 1) score += 1;
 
       // Challenge taxonomy match
       if (matchPillars.includes(r.pillar))        score += 2;
@@ -302,21 +300,36 @@ function renderPreview() {
   const playlist    = (STAGE_PLAYLISTS[stageNum] || {})[answers.audience];
   const audienceClass = answers.audience === 'Athlete' ? 'audience-athlete' : 'audience-parent';
 
-  document.getElementById('preview-match-label').textContent =
-    `${total} resource${total !== 1 ? 's' : ''} matched to your profile`;
+  const comingSoon = COMING_SOON.has(String(stageNum));
+  const upsell = document.querySelector('.upsell-box');
+  if (upsell) upsell.hidden = comingSoon;
+
+  document.getElementById('preview-match-label').textContent = comingSoon
+    ? 'This stage is not published yet'
+    : `${total} resource${total !== 1 ? 's' : ''} matched to your profile`;
+
+  if (comingSoon) {
+    previewList.innerHTML = `<div class="resource-preview-card" style="flex-direction:column;align-items:flex-start;gap:12px;">
+      <div>
+        <h3 style="margin-bottom:6px;">Stages 5 through 8 are not published yet</h3>
+        <p style="font-size:0.9rem;margin-bottom:12px;">
+          There is no playlist link, because those shelves are empty.
+          Pick a live stage if you want a tool today. Stages 1 through 4 have videos.
+        </p>
+      </div>
+    </div>`;
+    return;
+  }
 
   if (total === 0) {
-    // Stage has no resources yet — show coming soon message + playlist link
     previewList.innerHTML = `<div class="resource-preview-card" style="flex-direction:column;align-items:flex-start;gap:12px;">
-      <div style="font-size:1.5rem">🎬</div>
       <div>
-        <h3 style="margin-bottom:6px;">Resources for ${STAGE_META[stageNum]?.label || 'this stage'} are coming soon</h3>
+        <h3 style="margin-bottom:6px;">Tools for ${STAGE_META[stageNum]?.label || 'this stage'} are not in the selector yet</h3>
         <p style="font-size:0.9rem;margin-bottom:12px;">
-          We're building tools to match this stage as new episodes publish.
-          In the meantime, start with the YouTube playlist — it covers the full curriculum for your situation.
+          The videos for this stage are live. Start with the playlist.
         </p>
         ${playlist ? `<a href="${playlist}" target="_blank" class="btn btn-primary" style="font-size:0.85rem;padding:10px 20px;">
-          Watch the ${STAGE_META[stageNum]?.label} Playlist →
+          Watch the playlist
         </a>` : ''}
       </div>
     </div>`;
@@ -341,31 +354,4 @@ function renderPreview() {
   }
 
   document.getElementById('btn-stripe-checkout').href = CONFIG.STRIPE_PAYMENT_LINK;
-  document.getElementById('btn-apply-promo').addEventListener('click', applyPromo);
-}
-
-// ── Promo code ───────────────────────────────────────────────────────────────
-function applyPromo() {
-  const code     = document.getElementById('promo-input').value.trim().toUpperCase();
-  const msgEl    = document.getElementById('promo-msg');
-  const stripeBtn = document.getElementById('btn-stripe-checkout');
-  if (!code) return;
-
-  const promo = CONFIG.PROMO_CODES[code];
-  msgEl.classList.remove('hidden', 'valid', 'invalid');
-
-  if (promo) {
-    activePromo = promo;
-    const price = Math.round(CONFIG.BASE_PRICE * promo.multiplier);
-    msgEl.textContent = `✓ ${promo.label} — You pay $${price}`;
-    msgEl.classList.add('valid');
-    stripeBtn.href = `${CONFIG.STRIPE_PAYMENT_LINK.split('?')[0]}?prefilled_promo_code=${code}`;
-    stripeBtn.textContent = `Unlock Full Guide — $${price} →`;
-  } else {
-    activePromo = null;
-    msgEl.textContent = '✗ Code not recognised. Check for typos.';
-    msgEl.classList.add('invalid');
-    stripeBtn.href = CONFIG.STRIPE_PAYMENT_LINK;
-    stripeBtn.textContent = `Unlock Full Guide — $${CONFIG.BASE_PRICE} →`;
-  }
 }
